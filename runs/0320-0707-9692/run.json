@@ -1,0 +1,14 @@
+{
+  "runId": "0320-0707-9692",
+  "objective": "Validation round: Cross-check all research for the Creator Program Aggregator platform. Each agent plays a different role (CEO, PM, UX Designer, Creator/User) and reviews the complete research to find gaps, risks, and missed opportunities.",
+  "status": "created",
+  "createdAt": "2026-03-20T07:07:51.312598+00:00Z",
+  "agents": [],
+  "phases": [],
+  "competitive": [],
+  "checkpoints": [],
+  "healingEvents": [],
+  "reviewLoops": [],
+  "roleSwitches": [],
+  "completedAt": null
+}

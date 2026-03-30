@@ -1,0 +1,24 @@
+{
+  "code": {
+    "language": "TypeScript",
+    "style": "concise, self-documenting",
+    "comments": "minimal — code should speak for itself",
+    "framework_preferences": {
+      "backend": "Fastify > Express",
+      "frontend": "Next.js + Tailwind CSS",
+      "testing": "Vitest",
+      "validation": "Zod"
+    },
+    "structure": "folder-by-feature, not folder-by-type",
+    "naming": "meaningful variable names, no abbreviations"
+  },
+  "writing": {
+    "tone": "direct, casual, no corporate speak",
+    "avoid": ["filler words", "corporate jargon", "excessive emojis", "sycophantic openers"],
+    "style": "concise when needed, thorough when it matters"
+  },
+  "design": {
+    "style": "clean, minimal",
+    "themes": "dark preferred"
+  }
+}

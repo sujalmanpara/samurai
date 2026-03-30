@@ -1,0 +1,14 @@
+{
+  "runId": "0325-1214-dd56",
+  "objective": "Find and set correct logo URLs for all 74 CreatorVault programs. Use Simple Icons CDN (https://cdn.simpleicons.org/{slug}) for major brands, Clearbit (https://logo.clearbit.com/{domain}) for others, and generate branded SVG fallback data-URIs for any that can't be found. Update all 74 JSON files in /home/sam/creatorvault-backend/data/programs/ with working logo URLs.",
+  "status": "created",
+  "createdAt": "2026-03-25T12:14:02.384328+00:00Z",
+  "agents": [],
+  "phases": [],
+  "competitive": [],
+  "checkpoints": [],
+  "healingEvents": [],
+  "reviewLoops": [],
+  "roleSwitches": [],
+  "completedAt": null
+}

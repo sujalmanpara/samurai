@@ -1,0 +1,384 @@
+[
+  {
+    "id": "adobe-stock-contributor",
+    "bannerImage": "https://stock.adobe.com/v1/pics/all/default/075959cb183c3011a5c72ba04673293f6d8cfbce.stock_logo_2020.png",
+    "source": "og:image",
+    "note": "Relative URL converted - from stock.adobe.com/about"
+  },
+  {
+    "id": "alamy-contributor",
+    "bannerImage": "https://s.alamy.com/assets/latest/resolutions/2560/homepage/hero-banner/FF118R.jpg",
+    "source": "twitter:image",
+    "note": "From homepage - registration page had no og:image"
+  },
+  {
+    "id": "amazon-influencer",
+    "bannerImage": null,
+    "source": "failed",
+    "reason": "No og:image found - page requires JavaScript rendering"
+  },
+  {
+    "id": "amazon-kdp",
+    "bannerImage": null,
+    "source": "failed",
+    "reason": "No og:image found - KDP pages lack social meta tags"
+  },
+  {
+    "id": "bandcamp-artist",
+    "bannerImage": "https://s4.bcbits.com/vite/artists-labels-pages/client/v1/en/assets/artists-og-DUc5xL0X.png",
+    "source": "og:image",
+    "note": "From bandcamp.com/artists page"
+  },
+  {
+    "id": "beatstars",
+    "bannerImage": "https://cdn.prod.website-files.com/619d0b9cc86e5bf248780890/653fb2ae928462f3c3bfde7d_og_image.webp",
+    "source": "og:image"
+  },
+  {
+    "id": "beehiiv-creator",
+    "bannerImage": "https://media.beehiiv.com/www/og-image/og-beehiiv.png",
+    "source": "og:image",
+    "note": "From beehiiv.com homepage - monetize page redirected"
+  },
+  {
+    "id": "buy-me-a-coffee",
+    "bannerImage": "https://cdn.buymeacoffee.com/assets/homepage/meta/home-page-og.png",
+    "source": "og:image"
+  },
+  {
+    "id": "canva-creator",
+    "bannerImage": null,
+    "source": "failed",
+    "reason": "No og:image found - Canva pages use JavaScript rendering"
+  },
+  {
+    "id": "civitai-creator-program",
+    "bannerImage": null,
+    "source": "failed",
+    "reason": "No og:image found - page requires JavaScript rendering"
+  },
+  {
+    "id": "creative-market",
+    "bannerImage": null,
+    "source": "failed",
+    "reason": "403 Forbidden - Cloudflare protection blocked request"
+  },
+  {
+    "id": "dailymotion-partner",
+    "bannerImage": null,
+    "source": "failed",
+    "reason": "403 Forbidden - Cloudflare protection blocked request"
+  },
+  {
+    "id": "distrokid",
+    "bannerImage": "https://distrokid.com/images/logo_og_image.png",
+    "source": "og:image"
+  },
+  {
+    "id": "dreamstime-contributor",
+    "bannerImage": "https://thumbs.dreamstime.com/front/img/share/dreamstime-about.jpg",
+    "source": "og:image",
+    "note": "From dreamstime.com/about - sell page blocked"
+  },
+  {
+    "id": "elevenlabs-voice-library",
+    "bannerImage": "https://eleven-public-cdn.elevenlabs.io/payloadcms/d553j12ey9-Blog%20(18).webp",
+    "source": "og:image"
+  },
+  {
+    "id": "envato-contributor",
+    "bannerImage": "https://author.envato.com/hub/wp-content/uploads/become_an_author.png",
+    "source": "og:image"
+  },
+  {
+    "id": "epidemic-sound-ambassador",
+    "bannerImage": "https://www.epidemicsound.com/staticfiles/legacy/20/images/epidemic-sound-logo-square.png",
+    "source": "og:image",
+    "note": "Small logo image (300x300) - not ideal banner but only available"
+  },
+  {
+    "id": "facebook-creator-fast-track",
+    "bannerImage": "https://about.fb.com/wp-content/uploads/2026/03/Creator-Fast-Track_Quickly-Grow-Your-Audience-and-Earn-Money-on-Facebook_Header.jpg?w=1200",
+    "source": "og:image"
+  },
+  {
+    "id": "figma-community-creator",
+    "bannerImage": "https://static.figma.com/uploads/3d791db872a0158f92798fa0134d8eeaf6af5535",
+    "source": "og:image"
+  },
+  {
+    "id": "fortnite-uefn",
+    "bannerImage": "https://dev.epicgames.com/community/api/documentation/image/meta_tag?path=en-us/fortnite/engagement-payout-in-fortnite-creative&application_version=1.0",
+    "source": "og:image"
+  },
+  {
+    "id": "fourthwall-creator",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "freepik-contributor",
+    "bannerImage": "https://fps.cdnpk.net/common/contributor-freepik-og.png?w=1200",
+    "source": "og:image"
+  },
+  {
+    "id": "getty-images-contributor",
+    "bannerImage": "https://image-processor-storage.s3.us-west-2.amazonaws.com/uploads/03fa03454e0a886ce70440dcd99678b6/cleaning-time-doesnt-have-to-be-all-boringjpg.jpg",
+    "source": "og:image"
+  },
+  {
+    "id": "github-sponsors",
+    "bannerImage": "https://images.ctfassets.net/8aevphvgewt8/6QLkAW8tejFtpyDTCdO1Yd/5ed91a2b1c0cfb264c6e0aeac870e9aa/sponsors-945335f065cc.jpg",
+    "source": "og:image"
+  },
+  {
+    "id": "gumroad-creator",
+    "bannerImage": "https://assets.gumroad.com/assets/opengraph_image-4110ebae42201eaa14606ecde6ca17e380f576b25224ba270116b0439775cd0a.png",
+    "source": "og:image"
+  },
+  {
+    "id": "higgsfield-earn",
+    "bannerImage": "https://higgsfield.ai/thumbnail/earn.jpg",
+    "source": "og:image"
+  },
+  {
+    "id": "instagram-creator-monetization",
+    "bannerImage": "https://static.cdninstagram.com/rsrc.php/v4/yD/r/R0fBIMurK8v.png",
+    "source": "og:image"
+  },
+  {
+    "id": "kick-creator-program",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "kling-ai-partnership",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "ko-fi",
+    "bannerImage": "https://storage.ko-fi.com/cdn/og.png?v=2",
+    "source": "og:image"
+  },
+  {
+    "id": "leonardo-ai-affiliate",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "ltk-creator",
+    "bannerImage": "https://creator.shopltk.com/LTK_creator.png",
+    "source": "og:image"
+  },
+  {
+    "id": "maven-creator",
+    "bannerImage": "https://d2426xcxuh3ht5.cloudfront.net/HCb0epiqS6SljmDozKSs_MCA_Social Share_1200x630.jpg",
+    "source": "og:image"
+  },
+  {
+    "id": "medium-partner-program",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "meta-horizon-creator-program",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "newsbreak-creator",
+    "bannerImage": "https://www.newsbreak.com/default_news_cover.png",
+    "source": "og:image"
+  },
+  {
+    "id": "notion-template-creator",
+    "bannerImage": "https://www.notion.com/en-us/front-api/og-image/templates",
+    "source": "og:image"
+  },
+  {
+    "id": "patreon-creator",
+    "bannerImage": "https://c10.patreonusercontent.com/4/patreon-media/p/campaign/0/7f82f56bf4f04f7fbac2b7afec08b7fb/eyJoIjoxMjAwLCJ3IjoxNjAwfQ%3D%3D/1.png?token-time=2145916800&token-hash=8qAJfNxHf5tqAcqGdlX0Y6xRKVChPLlwSRWKx3l1e98%3D",
+    "source": "og:image"
+  },
+  {
+    "id": "pond5-contributor",
+    "bannerImage": null,
+    "source": null
+  },
+  {
+    "id": "printful-ambassador",
+    "bannerImage": "https://static.cdn.printful.com/static/v878/images/index/og-homepage-en-us.jpg",
+    "source": "og:image"
+  },
+  {
+    "id": "printify-affiliate",
+    "bannerImage": "https://images.ctfassets.net/ggvoohxo9jaq/1Q1bN6R0WBWCwE7uDkXsM1/0961a1d5ed34285fd3d13dcd0e8e03eb/printify_affiliate_program.png",
+    "source": "og:image"
+  },
+  {
+    "id": "redbubble",
+    "bannerImage": null,
+    "source": null
+  },
+  {
+    "id": "roblox-developer-program",
+    "bannerImage": "https://images.rbxcdn.com/0bc38ede959f2b3fa48f4dfc8b60bdd2-roblox_share.png",
+    "source": "og:image"
+  },
+  {
+    "id": "rumble-creator-program",
+    "bannerImage": "https://rumble.com/i/og/rumble-logo-og.png",
+    "source": "og:image"
+  },
+  {
+    "id": "runway-creative-partners",
+    "bannerImage": "https://cdn.runwayml.com/og_image_wide.png",
+    "source": "og:image"
+  },
+  {
+    "id": "sephora-squad",
+    "bannerImage": null,
+    "source": null
+  },
+  {
+    "id": "shopify-theme-partner",
+    "bannerImage": "https://cdn.shopify.com/b/shopify-brochure2-assets/a82075ea458eaddcad436fdab3b6bfa8.jpg?originalWidth=2400&originalHeight=1260",
+    "source": "og:image"
+  },
+  {
+    "id": "shutterstock-contributor",
+    "bannerImage": "https://www.shutterstock.com/shutterstock/photos/2589649197/display_1500/stock-photo-ai-generated-image-happy-customer-using-ai-app-on-his-phone-woman-shopping-using-ai-shopping-2589649197.jpg",
+    "source": "og:image"
+  },
+  {
+    "id": "skillshare-teacher",
+    "bannerImage": null,
+    "source": null
+  },
+  {
+    "id": "snap-lens-creator-rewards",
+    "bannerImage": "https://ar.snap.com/images/snap-ar-og.jpg",
+    "source": "og:image"
+  },
+  {
+    "id": "snapchat-spotlight-monetization",
+    "bannerImage": "https://images.ctfassets.net/inb32lme5009/3E9kLNwVroxaPJD3qHnFxK/d2ee30d0ad3cc56e2d45db1ce9e46a67/OG-image.png",
+    "source": "og:image"
+  },
+  {
+    "id": "soundcloud-premier",
+    "bannerImage": "https://a-v2.sndcdn.com/assets/images/sc-og-image-e36a90c6.png",
+    "source": "og:image"
+  },
+  {
+    "id": "splice-creator",
+    "bannerImage": "https://splice.com/seo/og-image.png",
+    "source": "og:image"
+  },
+  {
+    "id": "spotify-partner-program",
+    "bannerImage": "https://www.spotify.com/us/images/share-meta.png",
+    "source": "og:image"
+  },
+  {
+    "id": "spring-creator",
+    "bannerImage": "https://cdn.shopify.com/s/files/1/0318/3448/5044/files/Spring_Social_Share_1200x630_1.png?v=1614280737",
+    "source": "og:image"
+  },
+  {
+    "id": "stocksy-contributor",
+    "bannerImage": "https://www.stocksy.com/static/images/share-default.jpg",
+    "source": "og:image"
+  },
+  {
+    "id": "substack-pro",
+    "bannerImage": "https://substackcdn.com/image/fetch/w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F51090fae-a8a1-49b0-8c1d-d128a498363b_1612x1068.png",
+    "source": "og:image"
+  },
+  {
+    "id": "teachable-creator",
+    "bannerImage": "https://cdn.prod.website-files.com/687904fb2b26c434698c47e9/68f7dd90eed5bf0a9cb37cd1_teachable-og-main.webp",
+    "source": "twitter:image"
+  },
+  {
+    "id": "tiktok-creator-rewards",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "tiktok-shop-affiliate",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "twitch-affiliate",
+    "bannerImage": "https://www.twitch.tv/creatorcamp/twitch-creator-camp.jpg",
+    "source": "og:image"
+  },
+  {
+    "id": "udemy-instructor",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "ulta-beauty-collective",
+    "bannerImage": "https://ubcollective.com/ub_collective_og.png",
+    "source": "og:image"
+  },
+  {
+    "id": "unity-asset-store",
+    "bannerImage": "https://images.ctfassets.net/t8hl2pirfi15/3xcvxnXZS5chl05fdoIqAp/7af086ba3422eb01d585b94858d03aa4/open_graph_default.png",
+    "source": "og:image"
+  },
+  {
+    "id": "vocal-media",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "wattpad-creators-program",
+    "bannerImage": "https://bmth58fl.media.zesty.site/Homepage-Creators-Logo-Alt-Grey.svg?width=1200&height=630&fit=crop",
+    "source": "og:image"
+  },
+  {
+    "id": "webflow-template-creator",
+    "bannerImage": "https://cdn.prod.website-files.com/5e593fb060cf87bbaf75dd20/651ee1f5eb37698aecfd9c17_brand-refresh-templates-og-1200x628.jpg",
+    "source": "twitter:image"
+  },
+  {
+    "id": "webtoon-creator",
+    "bannerImage": "https://webtoons-static.pstatic.net/image/pc/home/og_en.jpg?dt=2021111201",
+    "source": "og:image"
+  },
+  {
+    "id": "whatnot-seller",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "wirestock",
+    "bannerImage": "https://wirestock-web-assets-production.s3.amazonaws.com/socials/og-image.webp",
+    "source": "og:image"
+  },
+  {
+    "id": "x-creator-revenue",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "yesstyle-influencer",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "youtube-partner-program",
+    "bannerImage": "https://www.youtube.com/img/desktop/yt_1200.png",
+    "source": "og:image"
+  },
+  {
+    "id": "zapier-solution-partner",
+    "bannerImage": "https://res.cloudinary.com/zapier-media/image/upload/v1737062632/Partners/Solutions%20Partner%20Program/og-solutionpartner_eikmo9.png",
+    "source": "twitter:image"
+  }
+]

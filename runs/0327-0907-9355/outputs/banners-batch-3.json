@@ -1,0 +1,21 @@
+[
+  {"id": "patreon-creator", "bannerImage": "https://c10.patreonusercontent.com/4/patreon-media/p/campaign/0/7f82f56bf4f04f7fbac2b7afec08b7fb/eyJoIjoxMjAwLCJ3IjoxNjAwfQ%3D%3D/1.png?token-time=2145916800&token-hash=8qAJfNxHf5tqAcqGdlX0Y6xRKVChPLlwSRWKx3l1e98%3D", "source": "og:image"},
+  {"id": "pond5-contributor", "bannerImage": null, "source": null},
+  {"id": "printful-ambassador", "bannerImage": "https://static.cdn.printful.com/static/v878/images/index/og-homepage-en-us.jpg", "source": "og:image"},
+  {"id": "printify-affiliate", "bannerImage": "https://images.ctfassets.net/ggvoohxo9jaq/1Q1bN6R0WBWCwE7uDkXsM1/0961a1d5ed34285fd3d13dcd0e8e03eb/printify_affiliate_program.png", "source": "og:image"},
+  {"id": "redbubble", "bannerImage": null, "source": null},
+  {"id": "roblox-developer-program", "bannerImage": "https://images.rbxcdn.com/0bc38ede959f2b3fa48f4dfc8b60bdd2-roblox_share.png", "source": "og:image"},
+  {"id": "rumble-creator-program", "bannerImage": "https://rumble.com/i/og/rumble-logo-og.png", "source": "og:image"},
+  {"id": "runway-creative-partners", "bannerImage": "https://cdn.runwayml.com/og_image_wide.png", "source": "og:image"},
+  {"id": "sephora-squad", "bannerImage": null, "source": null},
+  {"id": "shopify-theme-partner", "bannerImage": "https://cdn.shopify.com/b/shopify-brochure2-assets/a82075ea458eaddcad436fdab3b6bfa8.jpg?originalWidth=2400&originalHeight=1260", "source": "og:image"},
+  {"id": "shutterstock-contributor", "bannerImage": "https://www.shutterstock.com/shutterstock/photos/2589649197/display_1500/stock-photo-ai-generated-image-happy-customer-using-ai-app-on-his-phone-woman-shopping-using-ai-shopping-2589649197.jpg", "source": "og:image"},
+  {"id": "skillshare-teacher", "bannerImage": null, "source": null},
+  {"id": "snap-lens-creator-rewards", "bannerImage": "https://ar.snap.com/images/snap-ar-og.jpg", "source": "og:image"},
+  {"id": "snapchat-spotlight-monetization", "bannerImage": "https://images.ctfassets.net/inb32lme5009/3E9kLNwVroxaPJD3qHnFxK/d2ee30d0ad3cc56e2d45db1ce9e46a67/OG-image.png", "source": "og:image"},
+  {"id": "soundcloud-premier", "bannerImage": "https://a-v2.sndcdn.com/assets/images/sc-og-image-e36a90c6.png", "source": "og:image"},
+  {"id": "splice-creator", "bannerImage": "https://splice.com/seo/og-image.png", "source": "og:image"},
+  {"id": "spotify-partner-program", "bannerImage": "https://www.spotify.com/us/images/share-meta.png", "source": "og:image"},
+  {"id": "spring-creator", "bannerImage": "https://cdn.shopify.com/s/files/1/0318/3448/5044/files/Spring_Social_Share_1200x630_1.png?v=1614280737", "source": "og:image"},
+  {"id": "stocksy-contributor", "bannerImage": "https://www.stocksy.com/static/images/share-default.jpg", "source": "og:image"}
+]

@@ -1,0 +1,48 @@
+{
+  "batch1": [
+    {"id": "musicbed-composer", "url": "https://www.musicbed.com/", "name": "Musicbed Artist Program"},
+    {"id": "routenote-artist", "url": "https://routenote.com/", "name": "RouteNote Artist Program"},
+    {"id": "artlist-composer", "url": "https://artlist.io/", "name": "Artlist Composer Program"},
+    {"id": "unitedmasters-artist", "url": "https://unitedmasters.com/", "name": "UnitedMasters SELECT"},
+    {"id": "stem-distribution", "url": "https://stem.is/", "name": "Stem Distribution"},
+    {"id": "cdbaby-artist", "url": "https://cdbaby.com/", "name": "CD Baby Music Distribution"},
+    {"id": "distrokid", "url": "https://distrokid.com/", "name": "DistroKid"},
+    {"id": "epidemic-sound-ambassador", "url": "https://www.epidemicsound.com/", "name": "Epidemic Sound Ambassador"},
+    {"id": "soundcloud-premier", "url": "https://soundcloud.com/", "name": "SoundCloud Premier"}
+  ],
+  "batch2": [
+    {"id": "artstation-marketplace", "url": "https://www.artstation.com/", "name": "ArtStation Marketplace"},
+    {"id": "cgtrader-seller", "url": "https://www.cgtrader.com/", "name": "CGTrader 3D Model Marketplace"},
+    {"id": "creative-fabrica-designer", "url": "https://www.creativefabrica.com/", "name": "Creative Fabrica Designer Store"},
+    {"id": "displate-artist", "url": "https://displate.com/", "name": "Displate Artist Marketplace"},
+    {"id": "turbosquid-seller", "url": "https://www.turbosquid.com/", "name": "TurboSquid 3D Marketplace"},
+    {"id": "spoonflower-designer", "url": "https://www.spoonflower.com/", "name": "Spoonflower Designer Marketplace"},
+    {"id": "merch-by-amazon", "url": "https://merch.amazon.com/", "name": "Amazon Merch on Demand"},
+    {"id": "redbubble", "url": "https://www.redbubble.com/", "name": "Redbubble Artist"},
+    {"id": "whatnot-seller", "url": "https://www.whatnot.com/", "name": "Whatnot Seller Program"}
+  ],
+  "batch3": [
+    {"id": "gumroad-creator", "url": "https://gumroad.com/", "name": "Gumroad Creator"},
+    {"id": "yesstyle-influencer", "url": "https://www.yesstyle.com/", "name": "YesStyle Influencer Program"},
+    {"id": "wyzant-tutor", "url": "https://www.wyzant.com/", "name": "Wyzant Tutor Program"},
+    {"id": "domestika-instructor", "url": "https://www.domestika.org/", "name": "Domestika Instructor Program"},
+    {"id": "preply-tutor", "url": "https://preply.com/", "name": "Preply Tutor Program"},
+    {"id": "kajabi-creator", "url": "https://kajabi.com/", "name": "Kajabi Creator"},
+    {"id": "stageit-performer", "url": "https://www.stageit.com/", "name": "Stageit Live Performance Platform"},
+    {"id": "dailymotion-partner", "url": "https://www.dailymotion.com/", "name": "Dailymotion Partner Program"},
+    {"id": "tiktok-creator-rewards", "url": "https://www.tiktok.com/", "name": "TikTok Creator Rewards"}
+  ],
+  "batch4": [
+    {"id": "minecraft-marketplace-creator", "url": "https://www.minecraft.net/", "name": "Minecraft Partner Program"},
+    {"id": "overwolf-developer", "url": "https://www.overwolf.com/", "name": "Overwolf Developer Program"},
+    {"id": "dreamstime-contributor", "url": "https://www.dreamstime.com/", "name": "Dreamstime Contributor"},
+    {"id": "alamy-contributor", "url": "https://www.alamy.com/", "name": "Alamy Contributor"},
+    {"id": "adobe-stock-contributor", "url": "https://stock.adobe.com/", "name": "Adobe Stock Contributor"},
+    {"id": "tapas-creator-program", "url": "https://tapas.io/", "name": "Tapas Creator Program"},
+    {"id": "newsbreak-creator", "url": "https://www.newsbreak.com/", "name": "NewsBreak Contributor Network"},
+    {"id": "wattpad-creators-program", "url": "https://www.wattpad.com/", "name": "Wattpad Creators Program"},
+    {"id": "amazon-kdp", "url": "https://kdp.amazon.com/", "name": "Amazon KDP"},
+    {"id": "appsumo-marketplace", "url": "https://appsumo.com/", "name": "AppSumo Marketplace Partner"},
+    {"id": "cameo-creator", "url": "https://www.cameo.com/", "name": "Cameo Creator Program"}
+  ]
+}

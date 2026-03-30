@@ -1,0 +1,14 @@
+{
+  "runId": "0327-1038-81e4",
+  "objective": "Find real og:image banner URLs for 38 creator programs. For each program, visit the official creator/signup page and extract the og:image or twitter:image meta tag. If those don't exist, find a high-quality hero image URL from the page. Output a JSON mapping program_id to banner_url.",
+  "status": "created",
+  "createdAt": "2026-03-27T10:38:04.879920+00:00Z",
+  "agents": [],
+  "phases": [],
+  "competitive": [],
+  "checkpoints": [],
+  "healingEvents": [],
+  "reviewLoops": [],
+  "roleSwitches": [],
+  "completedAt": null
+}

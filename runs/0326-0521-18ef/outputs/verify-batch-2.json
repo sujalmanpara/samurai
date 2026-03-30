@@ -1,0 +1,72 @@
+[
+  {
+    "id": "discord-monetization",
+    "name": "Discord Server Subscriptions",
+    "verdict": "VERIFIED",
+    "reason": "Server owners earn by building and running communities — members pay monthly subscriptions for exclusive content and perks. Creators keep 90% of subscription revenue (after Discord's 10% fee). This is a content/community creation model, not a referral program.",
+    "url": "https://discord.com/monetization",
+    "payoutModel": "90% revenue share on server subscriptions (plus payment processing fees: 6% desktop, 15-30% mobile). Minimum payout: $100 first time, $25 thereafter via Stripe.",
+    "active": true,
+    "notes": "US-only for server subscriptions (bank account required). Server owner must be 18+, verified email, 2FA enabled, no recent ToS violations. Premium App Subscriptions available in US/UK/EU too."
+  },
+  {
+    "id": "steam-developer",
+    "name": "Steam Developer Program (Steamworks)",
+    "verdict": "VERIFIED",
+    "reason": "Indie developers publish games on Steam and earn revenue from sales. Classic creator-earns-from-work model.",
+    "url": "https://partner.steamgames.com/",
+    "payoutModel": "70% to developer / 30% to Valve (standard). 75/25 split above $10M revenue; 80/20 split above $50M. Includes DLC, in-game sales, and Community Marketplace fees.",
+    "active": true,
+    "notes": "One-time $100 app fee per game (refunded after $1,000 in sales). No ongoing subscription required."
+  },
+  {
+    "id": "itchio-developer",
+    "name": "Itch.io Creator Program",
+    "verdict": "VERIFIED",
+    "reason": "Developers sell games, assets, and digital content directly on itch.io. Open Revenue Sharing lets devs choose their split — from 0% to 100% to the platform. Highly creator-friendly.",
+    "url": "https://itch.io/developers",
+    "payoutModel": "Open Revenue Sharing — developer chooses what % goes to itch.io (default suggested ~10%, can be 0%). Developer keeps the rest after payment processing fees (~2.9% + $0.30). On Creator Day events, platform fee is waived entirely.",
+    "active": true,
+    "notes": "Free to upload. Supports 'pay what you want' pricing. Payouts via PayPal or Payoneer. Two payout methods: direct to PayPal/Stripe, or collected by itch.io and paid later."
+  },
+  {
+    "id": "tunecore-distribution",
+    "name": "TuneCore Music Distribution",
+    "verdict": "VERIFIED",
+    "reason": "Musicians distribute their music to 150+ platforms and streaming services, earning 100% of streaming/download royalties. Earn by creating and distributing music — not by referring others.",
+    "url": "https://www.tunecore.com/sell-your-music",
+    "payoutModel": "Artists keep 100% of royalties from streaming & digital stores. Annual subscription fee: free (New Artist), $24.99/yr (Rising Artist), $44.99/yr (Breakout Artist), $54.99/yr (Professional). TuneCore takes 20% from social media platforms (YouTube, TikTok). Publishing admin: 20% commission on collected royalties.",
+    "active": true,
+    "notes": "Free tier available but limited features. Pay-per-release also available ($24.99 single, $44.99 album/year). Publishing royalties paid quarterly, streaming/download royalties paid monthly."
+  },
+  {
+    "id": "cdbaby-distribution",
+    "name": "CD Baby Music Distribution",
+    "verdict": "VERIFIED",
+    "reason": "Musicians distribute their music to all major streaming platforms and earn royalties from streams, downloads, and sync licensing. Pure creator program — earn from the music you make.",
+    "url": "https://distrokid.com/vip/seven/cdbaby",
+    "payoutModel": "Artists keep 91% of digital royalties; CD Baby takes 9% commission. One-time upfront fee per release (single: $10, album varies). Weekly payouts when balance exceeds Pay Point threshold. Publishing services available (legacy, discontinued Aug 2023 for new sign-ups).",
+    "active": true,
+    "notes": "No ongoing annual fee — one-time per release. Supports sync licensing for TV/film. Payouts via bank transfer, PayPal, or Payoneer. CD Baby Pro Publishing discontinued for new releases as of Aug 2023."
+  },
+  {
+    "id": "audiomack-amp",
+    "name": "Audiomack Monetization Program (AMP)",
+    "verdict": "VERIFIED",
+    "reason": "Artists earn from streams of their music via Audiomack's monetization program. Earn by creating and uploading music — not by referring users.",
+    "url": "https://creators.audiomack.com/monetization",
+    "payoutModel": "50% revenue share on monetized streams. Revenue per stream is variable (ad/subscription revenue divided by total streams monthly). Estimated $1–$5 per 1,000 streams. 'Supporters' feature: artists keep 85% of direct fan contributions (after app store & payment processing fees). Payouts on net-90 basis, minimum $100 threshold.",
+    "active": true,
+    "notes": "Eligibility requirements: verified profile, at least 100 followers, and 50,000 plays within a 6-month period. Direct fan support ('Supporters') also available."
+  },
+  {
+    "id": "500px-licensing",
+    "name": "500px Licensing Program",
+    "verdict": "VERIFIED",
+    "reason": "Photographers upload their photos and earn royalties when images are licensed for commercial use. Distributed via Getty Images and Visual China Group. Classic stock photography / creator-earns-from-work model.",
+    "url": "https://500px.com/licensing/contribute",
+    "payoutModel": "Non-exclusive: 25% of net sales. Exclusive (Awesome/Pro members): up to 60–100% of net sales. Standard licensing rates: $50–$250 per image. Premium/exclusive use: potentially thousands per image. Photographers retain copyright.",
+    "active": true,
+    "notes": "Free to submit photos. Must pass editorial review. Photos distributed via Getty Images & Visual China Group. Requires model/property releases for recognizable people or copyrighted elements."
+  }
+]

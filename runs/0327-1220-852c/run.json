@@ -1,0 +1,14 @@
+{
+  "runId": "0327-1220-852c",
+  "objective": "Verify all 119 CreatorVault programs: check URLs work, descriptions are accurate, requirements are current, and data is complete. Flag any issues found.",
+  "status": "created",
+  "createdAt": "2026-03-27T12:20:43.083163+00:00Z",
+  "agents": [],
+  "phases": [],
+  "competitive": [],
+  "checkpoints": [],
+  "healingEvents": [],
+  "reviewLoops": [],
+  "roleSwitches": [],
+  "completedAt": null
+}

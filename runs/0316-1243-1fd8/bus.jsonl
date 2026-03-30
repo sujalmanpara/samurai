@@ -1,0 +1,5 @@
+{"ts":"2026-03-16T12:45:53Z","from":"decoder","to":"all","type":"done","msg":"decoder.ts complete"}
+{"ts":"2026-03-16T12:46:21Z","from":"invisible","to":"all","type":"done","msg":"invisible.ts complete"}
+{"ts":"2026-03-16T12:47:21Z","from":"patterns","to":"all","type":"done","msg":"patterns.ts complete with 120 rules"}
+{"ts":"2026-03-16T12:49:52Z","from":"scorer","to":"all","type":"done","msg":"scorer.ts + output-scan.ts + config.ts + logger.ts + index.ts complete"}
+{"ts":"2026-03-16T12:54:11Z","from":"integration","to":"all","type":"done","msg":"Shield hooked into proxy-handler.ts and index.ts"}

@@ -1,0 +1,668 @@
+[
+  {
+    "id": "adobe-stock-contributor",
+    "name": "Adobe Stock Contributor",
+    "platform": "Adobe",
+    "url": "https://contributor.stock.adobe.com/",
+    "platformUrl": "https://stock.adobe.com",
+    "logo": "/logos/adobe.svg",
+    "brandColor": "#FF0000"
+  },
+  {
+    "id": "alamy-contributor",
+    "name": "Alamy Contributor",
+    "platform": "Alamy",
+    "url": "https://www.alamy.com/registration/contributor-signup.aspx",
+    "platformUrl": "https://www.alamy.com",
+    "logo": "/logos/alamy.svg",
+    "brandColor": "#E31E24"
+  },
+  {
+    "id": "amazon-influencer",
+    "name": "Amazon Influencer Program",
+    "platform": "Amazon",
+    "url": "https://affiliate-program.amazon.com/influencers",
+    "platformUrl": "https://www.amazon.com",
+    "logo": "/logos/amazon.svg",
+    "brandColor": "#FF9900"
+  },
+  {
+    "id": "amazon-kdp",
+    "name": "Amazon KDP (Kindle Direct Publishing)",
+    "platform": "Amazon KDP",
+    "url": "https://kdp.amazon.com/en_US/help/topic/G200634390",
+    "platformUrl": "https://kdp.amazon.com",
+    "logo": "/logos/amazon-kdp.svg",
+    "brandColor": "#FF9900"
+  },
+  {
+    "id": "bandcamp-artist",
+    "name": "Bandcamp Artist Platform",
+    "platform": "Bandcamp",
+    "url": "https://bandcamp.com/signup",
+    "platformUrl": "https://bandcamp.com",
+    "logo": "/logos/bandcamp.svg",
+    "brandColor": "#1DA0C3"
+  },
+  {
+    "id": "beatstars",
+    "name": "BeatStars",
+    "platform": "BeatStars",
+    "url": "https://www.beatstars.com/sell-beats",
+    "platformUrl": "https://www.beatstars.com",
+    "logo": "/logos/beatstars.svg",
+    "brandColor": "#FF3C00"
+  },
+  {
+    "id": "beehiiv-creator",
+    "name": "Beehiiv Newsletter Monetization",
+    "platform": "Beehiiv",
+    "url": "https://www.beehiiv.com/monetize",
+    "platformUrl": "https://beehiiv.com",
+    "logo": "/logos/beehiiv.svg",
+    "brandColor": "#E5FF4F"
+  },
+  {
+    "id": "buy-me-a-coffee",
+    "name": "Buy Me a Coffee",
+    "platform": "Buy Me a Coffee",
+    "url": "https://www.buymeacoffee.com",
+    "platformUrl": "https://buymeacoffee.com",
+    "logo": "/logos/buy-me-a-coffee.svg",
+    "brandColor": "#FF813F"
+  },
+  {
+    "id": "canva-creator",
+    "name": "Canva Creator Program",
+    "platform": "Canva",
+    "url": "https://www.canva.com/creators/",
+    "platformUrl": "https://www.canva.com",
+    "logo": "/logos/canva.svg",
+    "brandColor": "#00C4CC"
+  },
+  {
+    "id": "civitai-creator-program",
+    "name": "Civitai Creator Program",
+    "platform": "Civitai",
+    "url": "https://civitai.com/creator-program",
+    "platformUrl": "https://civitai.com",
+    "logo": "/logos/civitai.svg",
+    "brandColor": "#2563EB"
+  },
+  {
+    "id": "creative-market",
+    "name": "Creative Market",
+    "platform": "Creative Market",
+    "url": "https://creativemarket.com/sell",
+    "platformUrl": "https://creativemarket.com",
+    "logo": "/logos/creative-market.svg",
+    "brandColor": "#8C4F2B"
+  },
+  {
+    "id": "dailymotion-partner",
+    "name": "Dailymotion Partner Program",
+    "platform": "Dailymotion",
+    "url": "https://faq.dailymotion.com/hc/en-us/articles/207338747-Earn-revenue-from-video-monetization",
+    "platformUrl": "https://www.dailymotion.com",
+    "logo": "/logos/dailymotion.svg",
+    "brandColor": "#0073E6"
+  },
+  {
+    "id": "distrokid",
+    "name": "DistroKid",
+    "platform": "DistroKid",
+    "url": "https://distrokid.com/vip/",
+    "platformUrl": "https://distrokid.com",
+    "logo": "/logos/distrokid.svg",
+    "brandColor": "#5046E4"
+  },
+  {
+    "id": "dreamstime-contributor",
+    "name": "Dreamstime Contributor",
+    "platform": "Dreamstime",
+    "url": "https://www.dreamstime.com/sell-stock-photos-images",
+    "platformUrl": "https://www.dreamstime.com",
+    "logo": "/logos/dreamstime.svg",
+    "brandColor": "#F47920"
+  },
+  {
+    "id": "elevenlabs-voice-library",
+    "name": "ElevenLabs Voice Library",
+    "platform": "ElevenLabs",
+    "url": "https://elevenlabs.io/blog/monetize-your-voice-with-elevenlabs-voice-library-and-create-passive-income",
+    "platformUrl": "https://elevenlabs.io",
+    "logo": "/logos/elevenlabs.svg",
+    "brandColor": "#000000"
+  },
+  {
+    "id": "envato-contributor",
+    "name": "Envato Contributor",
+    "platform": "Envato",
+    "url": "https://author.envato.com/hub/guides/become-envato-author/envato-author-application/",
+    "platformUrl": "https://envato.com",
+    "logo": "/logos/envato.svg",
+    "brandColor": "#81B441"
+  },
+  {
+    "id": "epidemic-sound-ambassador",
+    "name": "Epidemic Sound Community Program (Ambassador)",
+    "platform": "Epidemic Sound",
+    "url": "https://www.epidemicsound.com/community-program/",
+    "platformUrl": "https://epidemicsound.com",
+    "logo": "/logos/epidemic-sound.svg",
+    "brandColor": "#1A1A1A"
+  },
+  {
+    "id": "facebook-creator-fast-track",
+    "name": "Facebook Creator Fast Track",
+    "platform": "Facebook (Meta)",
+    "url": "https://about.fb.com/news/2026/03/creator-fast-track-grow-your-audience-earn-money-on-facebook/",
+    "platformUrl": "https://www.facebook.com",
+    "logo": "/logos/facebook.svg",
+    "brandColor": "#1877F2"
+  },
+  {
+    "id": "figma-community-creator",
+    "name": "Figma Community Creator",
+    "platform": "Figma",
+    "url": "https://www.figma.com/community/creators",
+    "platformUrl": "https://www.figma.com",
+    "logo": "/logos/figma.svg",
+    "brandColor": "#F24E1E"
+  },
+  {
+    "id": "fortnite-uefn",
+    "name": "Fortnite Creative / UEFN",
+    "platform": "Epic Games",
+    "url": "https://dev.epicgames.com/documentation/en-us/fortnite/engagement-payout-in-fortnite-creative",
+    "platformUrl": "https://www.fortnite.com/creative",
+    "logo": "/logos/epic-games.svg",
+    "brandColor": "#2563EB"
+  },
+  {
+    "id": "fourthwall-creator",
+    "name": "Fourthwall Creator Store",
+    "platform": "Fourthwall",
+    "url": "https://fourthwall.com/",
+    "platformUrl": "https://fourthwall.com",
+    "logo": "/logos/fourthwall.svg",
+    "brandColor": "#111827"
+  },
+  {
+    "id": "freepik-contributor",
+    "name": "Freepik Contributor",
+    "platform": "Freepik",
+    "url": "https://contributor.freepik.com/",
+    "platformUrl": "https://www.freepik.com",
+    "logo": "/logos/freepik.svg",
+    "brandColor": "#1273EB"
+  },
+  {
+    "id": "getty-images-contributor",
+    "name": "Getty Images / iStock Contributor",
+    "platform": "Getty Images",
+    "url": "https://workwithus.gettyimages.com",
+    "platformUrl": "https://www.gettyimages.com",
+    "logo": "/logos/gettyimages.svg",
+    "brandColor": "#191919"
+  },
+  {
+    "id": "github-sponsors",
+    "name": "GitHub Sponsors",
+    "platform": "GitHub",
+    "url": "https://github.com/sponsors",
+    "platformUrl": "https://github.com",
+    "logo": "/logos/github.svg",
+    "brandColor": "#181717"
+  },
+  {
+    "id": "gumroad-creator",
+    "name": "Gumroad Creator",
+    "platform": "Gumroad",
+    "url": "https://gumroad.com/signup",
+    "platformUrl": "https://gumroad.com",
+    "logo": "/logos/gumroad.svg",
+    "brandColor": "#FF90E8"
+  },
+  {
+    "id": "higgsfield-earn",
+    "name": "Higgsfield Earn",
+    "platform": "Higgsfield",
+    "url": "https://higgsfield.ai/earn",
+    "platformUrl": "https://higgsfield.ai",
+    "logo": "/logos/higgsfield.svg",
+    "brandColor": "#6C5CE7"
+  },
+  {
+    "id": "instagram-creator-monetization",
+    "name": "Instagram Creator Monetization (Reels Bonus)",
+    "platform": "Instagram",
+    "url": "https://help.instagram.com/monetization",
+    "platformUrl": "https://www.instagram.com",
+    "logo": "/logos/instagram.svg",
+    "brandColor": "#E1306C"
+  },
+  {
+    "id": "kick-creator-program",
+    "name": "Kick Creator Program",
+    "platform": "Kick",
+    "url": "https://streamer.kick.com/partner",
+    "platformUrl": "https://kick.com",
+    "logo": "/logos/kick.svg",
+    "brandColor": "#53FC18"
+  },
+  {
+    "id": "kling-ai-partnership",
+    "name": "Kling AI Partnership Programme",
+    "platform": "Kling AI",
+    "url": "https://klingai.com/global/partnership",
+    "platformUrl": "https://klingai.com",
+    "logo": "/logos/klingai.svg",
+    "brandColor": "#6B3FF2"
+  },
+  {
+    "id": "ko-fi",
+    "name": "Ko-fi Creator",
+    "platform": "Ko-fi",
+    "url": "https://ko-fi.com/account/register",
+    "platformUrl": "https://ko-fi.com",
+    "logo": "/logos/ko-fi.svg",
+    "brandColor": "#FF5E5B"
+  },
+  {
+    "id": "leonardo-ai-affiliate",
+    "name": "Leonardo AI Affiliate Program",
+    "platform": "Leonardo AI",
+    "url": "https://leonardo.ai/ai-affiliate-program",
+    "platformUrl": "https://leonardo.ai",
+    "logo": "/logos/leonardoai.svg",
+    "brandColor": "#7B2FFF"
+  },
+  {
+    "id": "ltk-creator",
+    "name": "LTK Creator Program",
+    "platform": "LTK (LikeToKnowIt)",
+    "url": "https://creator.shopltk.com/apply",
+    "platformUrl": "https://www.shopltk.com",
+    "logo": "/logos/ltk.svg",
+    "brandColor": "#FF5A5F"
+  },
+  {
+    "id": "maven-creator",
+    "name": "Maven Course Creator (Cohort-Based)",
+    "platform": "Maven",
+    "url": "https://maven.com/maven/course-accelerator",
+    "platformUrl": "https://maven.com",
+    "logo": "/logos/maven.svg",
+    "brandColor": "#5522FA"
+  },
+  {
+    "id": "medium-partner-program",
+    "name": "Medium Partner Program",
+    "platform": "Medium",
+    "url": "https://medium.com/creator-program",
+    "platformUrl": "https://medium.com",
+    "logo": "/logos/medium.svg",
+    "brandColor": "#000000"
+  },
+  {
+    "id": "meta-horizon-creator-program",
+    "name": "Meta Horizon Creator Program",
+    "platform": "Meta Horizon Worlds",
+    "url": "https://developers.meta.com/horizon/discover/programs/",
+    "platformUrl": "https://horizon.meta.com",
+    "logo": "/logos/meta-horizon.svg",
+    "brandColor": "#0082FB"
+  },
+  {
+    "id": "newsbreak-creator",
+    "name": "NewsBreak Contributor Network",
+    "platform": "NewsBreak",
+    "url": "https://creators.newsbreak.com",
+    "platformUrl": "https://newsbreak.com",
+    "logo": "/logos/newsbreak.svg",
+    "brandColor": "#E8003D"
+  },
+  {
+    "id": "notion-template-creator",
+    "name": "Notion Template Creator",
+    "platform": "Notion",
+    "url": "https://www.notion.com/help/guides/getting-started-as-a-template-creator-on-marketplace",
+    "platformUrl": "https://www.notion.com",
+    "logo": "/logos/notion.svg",
+    "brandColor": "#000000"
+  },
+  {
+    "id": "patreon-creator",
+    "name": "Patreon Creator",
+    "platform": "Patreon",
+    "url": "https://www.patreon.com/create",
+    "platformUrl": "https://www.patreon.com",
+    "logo": "/logos/patreon.svg",
+    "brandColor": "#FF424D"
+  },
+  {
+    "id": "pond5-contributor",
+    "name": "Pond5 Contributor",
+    "platform": "Pond5",
+    "url": "https://www.pond5.com/sell-stock-footage",
+    "platformUrl": "https://www.pond5.com",
+    "logo": "/logos/pond5.svg",
+    "brandColor": "#FF5500"
+  },
+  {
+    "id": "printful-ambassador",
+    "name": "Printful Brand Ambassador",
+    "platform": "Printful",
+    "url": "https://www.printful.com/ambassador",
+    "platformUrl": "https://www.printful.com",
+    "logo": "/logos/printful.svg",
+    "brandColor": "#222222"
+  },
+  {
+    "id": "printify-affiliate",
+    "name": "Printify Affiliate Program",
+    "platform": "Printify",
+    "url": "https://printify.com/affiliate/",
+    "platformUrl": "https://printify.com",
+    "logo": "/logos/printify.svg",
+    "brandColor": "#00B3A4"
+  },
+  {
+    "id": "redbubble",
+    "name": "Redbubble Artist",
+    "platform": "Redbubble",
+    "url": "https://www.redbubble.com/sell/art",
+    "platformUrl": "https://www.redbubble.com",
+    "logo": "/logos/redbubble.svg",
+    "brandColor": "#E2141A"
+  },
+  {
+    "id": "roblox-developer-program",
+    "name": "Roblox Developer Exchange (DevEx)",
+    "platform": "Roblox",
+    "url": "https://create.roblox.com/devex",
+    "platformUrl": "https://www.roblox.com",
+    "logo": "/logos/roblox.svg",
+    "brandColor": "#E20303"
+  },
+  {
+    "id": "rumble-creator-program",
+    "name": "Rumble Creator Program",
+    "platform": "Rumble",
+    "url": "https://rumble.com/creator-program",
+    "platformUrl": "https://rumble.com",
+    "logo": "/logos/rumble.svg",
+    "brandColor": "#85C742"
+  },
+  {
+    "id": "runway-creative-partners",
+    "name": "Runway Creative Partners Program",
+    "platform": "Runway",
+    "url": "https://cpp.runwayml.com/",
+    "platformUrl": "https://runwayml.com",
+    "logo": "/logos/runway.svg",
+    "brandColor": "#000000"
+  },
+  {
+    "id": "sephora-squad",
+    "name": "Sephora Squad",
+    "platform": "Sephora",
+    "url": "https://www.sephorasquad.com/",
+    "platformUrl": "https://www.sephora.com",
+    "logo": "/logos/sephora.svg",
+    "brandColor": "#000000"
+  },
+  {
+    "id": "shopify-theme-partner",
+    "name": "Shopify Theme Store Partner",
+    "platform": "Shopify",
+    "url": "https://partners.shopify.com",
+    "platformUrl": "https://shopify.com",
+    "logo": "/logos/shopify.svg",
+    "brandColor": "#96BF48"
+  },
+  {
+    "id": "shutterstock-contributor",
+    "name": "Shutterstock Contributor",
+    "platform": "Shutterstock",
+    "url": "https://submit.shutterstock.com/",
+    "platformUrl": "https://www.shutterstock.com",
+    "logo": "/logos/shutterstock.svg",
+    "brandColor": "#EE2222"
+  },
+  {
+    "id": "skillshare-teacher",
+    "name": "Skillshare Teacher",
+    "platform": "Skillshare",
+    "url": "https://www.skillshare.com/teach",
+    "platformUrl": "https://www.skillshare.com",
+    "logo": "/logos/skillshare.svg",
+    "brandColor": "#00FF84"
+  },
+  {
+    "id": "snap-lens-creator-rewards",
+    "name": "Snap Lens Creator Rewards",
+    "platform": "Snapchat",
+    "url": "https://ar.snap.com/lens-creator-rewards",
+    "platformUrl": "https://lens.snapchat.com",
+    "logo": "/logos/snapchat.svg",
+    "brandColor": "#FFFC00"
+  },
+  {
+    "id": "snapchat-spotlight-monetization",
+    "name": "Snapchat Creator Monetization Program",
+    "platform": "Snapchat",
+    "url": "https://snap.com/en-US/creator/spotlight",
+    "platformUrl": "https://www.snapchat.com",
+    "logo": "/logos/snapchat.svg",
+    "brandColor": "#FFFC00"
+  },
+  {
+    "id": "soundcloud-premier",
+    "name": "SoundCloud Premier Monetization",
+    "platform": "SoundCloud",
+    "url": "https://artists.soundcloud.com/monetization/soundcloud",
+    "platformUrl": "https://soundcloud.com",
+    "logo": "/logos/soundcloud.svg",
+    "brandColor": "#FF5500"
+  },
+  {
+    "id": "splice-creator",
+    "name": "Splice Sounds Creator",
+    "platform": "Splice",
+    "url": "https://splice.com/sounds/submit",
+    "platformUrl": "https://splice.com",
+    "logo": "/logos/splice.svg",
+    "brandColor": "#0074FF"
+  },
+  {
+    "id": "spotify-partner-program",
+    "name": "Spotify Partner Program (Podcast & Video)",
+    "platform": "Spotify",
+    "url": "https://support.spotify.com/us/creators/article/spotify-partner-program/",
+    "platformUrl": "https://spotify.com",
+    "logo": "/logos/spotify.svg",
+    "brandColor": "#1DB954"
+  },
+  {
+    "id": "spring-creator",
+    "name": "Spring (Teespring) Creator Store",
+    "platform": "Spring",
+    "url": "https://www.spri.ng/",
+    "platformUrl": "https://www.spri.ng",
+    "logo": "/logos/spring.svg",
+    "brandColor": "#28A745"
+  },
+  {
+    "id": "stocksy-contributor",
+    "name": "Stocksy Contributor",
+    "platform": "Stocksy",
+    "url": "https://www.stocksy.com/cta/welcome",
+    "platformUrl": "https://www.stocksy.com",
+    "logo": "/logos/stocksy.svg",
+    "brandColor": "#2B2B2B"
+  },
+  {
+    "id": "substack-pro",
+    "name": "Substack Creator Accelerator",
+    "platform": "Substack",
+    "url": "https://post.substack.com/p/substack-creator-accelerator-fund",
+    "platformUrl": "https://substack.com",
+    "logo": "/logos/substack.svg",
+    "brandColor": "#FF6719"
+  },
+  {
+    "id": "teachable-creator",
+    "name": "Teachable Creator (Course Platform)",
+    "platform": "Teachable",
+    "url": "https://teachable.com",
+    "platformUrl": "https://teachable.com",
+    "logo": "/logos/teachable.svg",
+    "brandColor": "#00BCD4"
+  },
+  {
+    "id": "tiktok-creator-rewards",
+    "name": "TikTok Creator Rewards Program",
+    "platform": "TikTok",
+    "url": "https://support.tiktok.com/en/business-and-creator/creator-rewards-program/creator-rewards-program",
+    "platformUrl": "https://www.tiktok.com",
+    "logo": "/logos/tiktok.svg",
+    "brandColor": "#010101"
+  },
+  {
+    "id": "tiktok-shop-affiliate",
+    "name": "TikTok Shop Affiliate",
+    "platform": "TikTok",
+    "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6939143037667118",
+    "platformUrl": "https://www.tiktok.com",
+    "logo": "/logos/tiktok.svg",
+    "brandColor": "#010101"
+  },
+  {
+    "id": "twitch-affiliate",
+    "name": "Twitch Affiliate & Partner Program",
+    "platform": "Twitch",
+    "url": "https://help.twitch.tv/s/article/joining-the-affiliate-program",
+    "platformUrl": "https://www.twitch.tv",
+    "logo": "/logos/twitch.svg",
+    "brandColor": "#9146FF"
+  },
+  {
+    "id": "udemy-instructor",
+    "name": "Udemy Instructor",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/teaching/",
+    "platformUrl": "https://www.udemy.com",
+    "logo": "/logos/udemy.svg",
+    "brandColor": "#A435F0"
+  },
+  {
+    "id": "ulta-beauty-collective",
+    "name": "Ulta Beauty Collective",
+    "platform": "Ulta Beauty",
+    "url": "https://ubcollective.com/",
+    "platformUrl": "https://www.ulta.com",
+    "logo": "/logos/ulta.svg",
+    "brandColor": "#CC0000"
+  },
+  {
+    "id": "unity-asset-store",
+    "name": "Unity Asset Store",
+    "platform": "Unity",
+    "url": "https://assetstore.unity.com/publishing/publish-and-sell-assets",
+    "platformUrl": "https://assetstore.unity.com",
+    "logo": "/logos/unity.svg",
+    "brandColor": "#222222"
+  },
+  {
+    "id": "vocal-media",
+    "name": "Vocal Media",
+    "platform": "Vocal",
+    "url": "https://vocal.media/for-creators",
+    "platformUrl": "https://vocal.media",
+    "logo": "/logos/vocal.svg",
+    "brandColor": "#000000"
+  },
+  {
+    "id": "wattpad-creators-program",
+    "name": "Wattpad Creators Program",
+    "platform": "Wattpad",
+    "url": "https://company.wattpad.com/blog/empowering-authors-to-write-the-next-big-hit-nbsp-evolving-the-wattpad-creators-program",
+    "platformUrl": "https://wattpad.com",
+    "logo": "/logos/wattpad.svg",
+    "brandColor": "#FF5400"
+  },
+  {
+    "id": "webflow-template-creator",
+    "name": "Webflow Template Marketplace Creator",
+    "platform": "Webflow",
+    "url": "https://webflow.com/templates/applications",
+    "platformUrl": "https://webflow.com",
+    "logo": "/logos/webflow.svg",
+    "brandColor": "#4353FF"
+  },
+  {
+    "id": "webtoon-creator",
+    "name": "WEBTOON Canvas Creator",
+    "platform": "WEBTOON",
+    "url": "https://www.webtoons.com/en/creators101/makemoney",
+    "platformUrl": "https://www.webtoons.com",
+    "logo": "/logos/webtoon.svg",
+    "brandColor": "#00D564"
+  },
+  {
+    "id": "whatnot-seller",
+    "name": "Whatnot Seller Program",
+    "platform": "Whatnot",
+    "url": "https://www.whatnot.com/seller",
+    "platformUrl": "https://www.whatnot.com",
+    "logo": "/logos/whatnot.svg",
+    "brandColor": "#7C3AED"
+  },
+  {
+    "id": "wirestock",
+    "name": "Wirestock Contributor",
+    "platform": "Wirestock",
+    "url": "https://wirestock.io/become-a-contributor",
+    "platformUrl": "https://wirestock.io",
+    "logo": "/logos/wirestock.svg",
+    "brandColor": "#5B4EFF"
+  },
+  {
+    "id": "x-creator-revenue",
+    "name": "X (Twitter) Creator Revenue Sharing",
+    "platform": "X (Twitter)",
+    "url": "https://help.twitter.com/en/using-x/creator-monetization",
+    "platformUrl": "https://x.com",
+    "logo": "/logos/x-twitter.svg",
+    "brandColor": "#000000"
+  },
+  {
+    "id": "yesstyle-influencer",
+    "name": "YesStyle Influencer Program",
+    "platform": "YesStyle",
+    "url": "https://www.yesstyle.com/en/influencers.html",
+    "platformUrl": "https://www.yesstyle.com",
+    "logo": "/logos/yesstyle.svg",
+    "brandColor": "#E91E8C"
+  },
+  {
+    "id": "youtube-partner-program",
+    "name": "YouTube Partner Program",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/creators/partner-program/",
+    "platformUrl": "https://www.youtube.com",
+    "logo": "/logos/youtube.svg",
+    "brandColor": "#FF0000"
+  },
+  {
+    "id": "zapier-solution-partner",
+    "name": "Zapier Solution Partner Program",
+    "platform": "Zapier",
+    "url": "https://zapier.com/l/solution-partner",
+    "platformUrl": "https://zapier.com",
+    "logo": "/logos/zapier.svg",
+    "brandColor": "#FF4A00"
+  }
+]

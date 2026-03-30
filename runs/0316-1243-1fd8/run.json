@@ -1,0 +1,12 @@
+{
+  "runId": "0316-1243-1fd8",
+  "objective": "Build Ampere Shield - prompt injection prevention for api-proxy",
+  "status": "created",
+  "createdAt": "2026-03-16T12:43:46.573931+00:00Z",
+  "agents": [],
+  "phases": [],
+  "competitive": [],
+  "checkpoints": [],
+  "healingEvents": [],
+  "completedAt": null
+}

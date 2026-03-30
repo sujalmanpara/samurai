@@ -1,0 +1,74 @@
+{
+  "id": "youtube-partner-program",
+  "name": "YouTube Partner Program",
+  "platform": "YouTube",
+  "logo": "https://cdn.simpleicons.org/youtube",
+  "bannerImage": "https://lh3.googleusercontent.com/vT9UEqvVT50pmCXjjhIkT5Y2R-4wl2rMu7vYCZtXa8BI5ZW1ZKmalEy6qw_NJ3kx0AInh8MVHloX8p4c3uVqMdUM4GqnQjBA1tPgb4sTtruiDN74fyY=w600",
+  "brandColor": "#FF0000",
+  "url": "https://www.youtube.com/creators/partner-program/",
+  "platformUrl": "https://www.youtube.com",
+  "category": "video",
+  "tags": [
+    "ad-revenue",
+    "monetization",
+    "long-form",
+    "shorts"
+  ],
+  "type": "revenue-share",
+  "tier": "well-known",
+  "payoutModel": "Ad revenue share (~45% to creator via AdSense), plus channel memberships, Super Chat, Super Thanks, and Shopping",
+  "payoutRange": "$100\u2013$50,000+/month",
+  "estimatedEarnings": {
+    "beginner": "$100\u2013$500/month",
+    "midTier": "$1,000\u2013$10,000/month",
+    "topCreator": "$50,000+/month"
+  },
+  "requirements": [
+    "1,000 subscribers (full YPP with ad revenue)",
+    "4,000 valid public watch hours in last 12 months OR 10M public Shorts views in last 90 days",
+    "No active Community Guidelines strikes",
+    "2-Step Verification enabled on Google Account",
+    "Active AdSense account linked",
+    "Expanded YPP (fan funding only, no ads): 500 subs + 3,000 watch hours or 3M Shorts views"
+  ],
+  "rejectionReasons": [
+    "Channel content violates monetization policies (reused content, spam)",
+    "Active Community Guidelines strikes",
+    "Not enough original content \u2014 significant portion of channel is third-party material",
+    "Channel impersonates another creator or brand",
+    "Primarily made-for-kids content with limited ad potential"
+  ],
+  "minFollowers": 1000,
+  "availability": "worldwide",
+  "applicationType": "application",
+  "difficultyBadge": "requirement",
+  "difficultyLabel": "1K subs + 4K watch hours",
+  "status": "active",
+  "lastVerified": "2026-03-23",
+  "description": "YouTube's Partner Program is the gold standard for video monetization \u2014 ad revenue, channel memberships, Super Chat, and Shopping all under one roof. The tiered system lets smaller channels unlock fan-funding features at just 500 subscribers. CPM varies wildly by niche: finance and tech earn $10\u2013$30, entertainment may see $2\u2013$5.",
+  "quickTip": "Your RPM (Revenue Per Mille) matters more than raw views. Finance, investing, and B2B tech content consistently earns 5\u201310x higher CPM than entertainment \u2014 a 100K view video in finance can outpay a 1M view gaming video.",
+  "creatorsSay": [
+    {
+      "quote": "My tech tutorials with 50K subs earn about $800/month. The RPM is ~$8 which is way better than when I was doing gaming content at $1.50 RPM.",
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/PartneredYoutube/comments/yt_earnings_discussion/"
+    }
+  ],
+  "relatedPrograms": [
+    "tiktok-creator-rewards",
+    "kick-creator-program",
+    "patreon-creator"
+  ],
+  "stackWith": [
+    "patreon-creator",
+    "ko-fi"
+  ],
+  "crossPostGroup": "video-streaming",
+  "crossPostLabel": "Video Platforms",
+  "isHiddenGem": false,
+  "upvotes": 0,
+  "downvotes": 0,
+  "addedDate": "2026-03-23",
+  "submittedBy": null,
+  "logoSource": "simpleicons"
+}

@@ -1,0 +1,14 @@
+{
+  "runId": "0327-0556-1280",
+  "objective": "Write production-ready JSON files for 32 verified new creator programs. Include banner images, video URLs from page inspection, and verified redirect links.",
+  "status": "created",
+  "createdAt": "2026-03-27T05:56:22.841053+00:00Z",
+  "agents": [],
+  "phases": [],
+  "competitive": [],
+  "checkpoints": [],
+  "healingEvents": [],
+  "reviewLoops": [],
+  "roleSwitches": [],
+  "completedAt": null
+}

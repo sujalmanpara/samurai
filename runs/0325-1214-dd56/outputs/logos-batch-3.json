@@ -1,0 +1,122 @@
+[
+  {
+    "id": "snapchat-spotlight-monetization",
+    "logoUrl": "https://cdn.simpleicons.org/snapchat",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "soundcloud-premier",
+    "logoUrl": "https://cdn.simpleicons.org/soundcloud",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "splice-creator",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%230074FF'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>SP</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "spotify-partner-program",
+    "logoUrl": "https://cdn.simpleicons.org/spotify",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "spring-creator",
+    "logoUrl": "https://cdn.simpleicons.org/spring",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "stocksy-contributor",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%232B2B2B'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>ST</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "substack-pro",
+    "logoUrl": "https://cdn.simpleicons.org/substack",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "teachable-creator",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%2300BCD4'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>TE</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "tiktok-creator-rewards",
+    "logoUrl": "https://cdn.simpleicons.org/tiktok",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "tiktok-shop-affiliate",
+    "logoUrl": "https://cdn.simpleicons.org/tiktok",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "twitch-affiliate",
+    "logoUrl": "https://cdn.simpleicons.org/twitch",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "udemy-instructor",
+    "logoUrl": "https://cdn.simpleicons.org/udemy",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "ulta-beauty-collective",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23CC0000'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>UB</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "unity-asset-store",
+    "logoUrl": "https://cdn.simpleicons.org/unity",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "vocal-media",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23000000'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>VO</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "wattpad-creators-program",
+    "logoUrl": "https://cdn.simpleicons.org/wattpad",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "webflow-template-creator",
+    "logoUrl": "https://cdn.simpleicons.org/webflow",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "webtoon-creator",
+    "logoUrl": "https://cdn.simpleicons.org/webtoon",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "whatnot-seller",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%237C3AED'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>WH</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "wirestock",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%235B4EFF'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>WI</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "x-creator-revenue",
+    "logoUrl": "https://cdn.simpleicons.org/x",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "yesstyle-influencer",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23E91E8C'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>YS</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "youtube-partner-program",
+    "logoUrl": "https://cdn.simpleicons.org/youtube",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "zapier-solution-partner",
+    "logoUrl": "https://cdn.simpleicons.org/zapier",
+    "logoSource": "simpleicons"
+  }
+]

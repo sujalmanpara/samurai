@@ -1,0 +1,127 @@
+[
+  {
+    "id": "adobe-stock-contributor",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23FF0000'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>AD</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "alamy-contributor",
+    "logoUrl": "https://cdn.simpleicons.org/alamy",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "amazon-influencer",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23FF9900'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>AM</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "amazon-kdp",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23FF9900'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>AK</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "bandcamp-artist",
+    "logoUrl": "https://cdn.simpleicons.org/bandcamp",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "beatstars",
+    "logoUrl": "https://cdn.simpleicons.org/beatstars",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "beehiiv-creator",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23E5FF4F'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23333333' font-size='16' font-weight='bold' font-family='sans-serif'>BE</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "buy-me-a-coffee",
+    "logoUrl": "https://cdn.simpleicons.org/buymeacoffee",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "canva-creator",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%2300C4CC'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>CA</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "civitai-creator-program",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%232563EB'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>CI</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "creative-market",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%238C4F2B'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>CM</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "dailymotion-partner",
+    "logoUrl": "https://cdn.simpleicons.org/dailymotion",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "distrokid",
+    "logoUrl": "https://cdn.simpleicons.org/distrokid",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "dreamstime-contributor",
+    "logoUrl": "https://cdn.simpleicons.org/dreamstime",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "elevenlabs-voice-library",
+    "logoUrl": "https://cdn.simpleicons.org/elevenlabs",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "envato-contributor",
+    "logoUrl": "https://cdn.simpleicons.org/envato",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "epidemic-sound-ambassador",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%231A1A1A'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>ES</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "facebook-creator-fast-track",
+    "logoUrl": "https://cdn.simpleicons.org/facebook",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "figma-community-creator",
+    "logoUrl": "https://cdn.simpleicons.org/figma",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "fortnite-uefn",
+    "logoUrl": "https://cdn.simpleicons.org/epicgames",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "fourthwall-creator",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23111827'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>FW</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "freepik-contributor",
+    "logoUrl": "https://cdn.simpleicons.org/freepik",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "getty-images-contributor",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23191919'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>GI</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "github-sponsors",
+    "logoUrl": "https://cdn.simpleicons.org/github",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "gumroad-creator",
+    "logoUrl": "https://cdn.simpleicons.org/gumroad",
+    "logoSource": "simpleicons"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "kajabi-creator",
+    "name": "Kajabi Creator",
+    "verdict": "VERIFIED",
+    "reason": "Creators build and sell courses, memberships, coaching products, and digital downloads. Kajabi is a subscription-based platform where creators keep ~100% of revenue (minus payment processing fees). Not an affiliate-first model.",
+    "url": "https://kajabi.com/",
+    "payoutModel": "Creators keep 100% of revenue. Payment processing fees apply: 2.9% + $0.30/transaction via Kajabi Payments. Additional plan-based transaction fees if using third-party processors (0.5%–5% depending on plan).",
+    "active": true,
+    "requirements": "Paid subscription plan required (Kickstarter, Basic, Growth, Pro). Free trial available.",
+    "notes": "Subscription plans range from ~$55–$319/month. No revenue share with Kajabi itself."
+  },
+  {
+    "id": "coursera-instructor",
+    "name": "Coursera Instructor",
+    "verdict": "VERIFIED",
+    "reason": "Instructors earn from courses/projects they create and teach. Revenue is earned by building content (Guided Projects, courses). Institutional partners negotiate revenue share directly.",
+    "url": "https://www.coursera.org/partners/project-network",
+    "payoutModel": "Revenue share negotiated per partner/institution. For Guided Project Network instructors, Coursera pays a portion of subscription revenue. Institutional partners may receive flat fees or percentage of student revenue. Starting 2026, a 15% platform fee for course creators is expected.",
+    "active": true,
+    "requirements": "Individual instructors can apply via Guided Project Network (teach.coursera.org). Full course creation requires institutional partnership (university or approved organization). Approval process required.",
+    "notes": "Not fully open to independent individuals for full courses — primarily university/corporate partnerships. Guided Projects are the main route for independent instructors."
+  },
+  {
+    "id": "linkedin-learning-instructor",
+    "name": "LinkedIn Learning Instructor",
+    "verdict": "VERIFIED",
+    "reason": "Instructors earn from courses they record and publish on LinkedIn Learning. Earn upfront fee plus ongoing royalties based on viewership/engagement.",
+    "url": "https://learning.linkedin.com/instructors",
+    "payoutModel": "Upfront fee: $1,000–$5,000 per course. Ongoing royalties: 10%–15% of revenue from subscribers who view the content. Performance-based royalties.",
+    "active": true,
+    "requirements": "Application and approval required. LinkedIn looks for recognized subject matter experts in business, tech, leadership, or creative fields. Strong LinkedIn presence and professional experience expected.",
+    "notes": "Not open to everyone — competitive selection process. Instructors are vetted by LinkedIn."
+  },
+  {
+    "id": "thinkific-creator",
+    "name": "Thinkific Creator",
+    "verdict": "VERIFIED",
+    "reason": "Creators build and sell courses directly on Thinkific. Platform charges subscription fees, not revenue cuts. Creators earn from content they create.",
+    "url": "https://www.thinkific.com/",
+    "payoutModel": "Creators keep 100% of course revenue. Transaction surcharges apply only when using third-party payment processors (Stripe/PayPal): 1%–5% depending on plan. No surcharge with Thinkific Payments.",
+    "active": true,
+    "requirements": "Paid or free plan subscription. Free plan available with limited features. Paid plans from ~$36–$149/month.",
+    "notes": "GMV of $459.1M in 2024, growing platform. Strong creator-first model."
+  },
+  {
+    "id": "society6-artist",
+    "name": "Society6 Artist",
+    "verdict": "REJECTED",
+    "reason": "Society6 is currently NOT accepting new artist applications. Their help page states: 'We're not accepting new applications right now.' Platform has also moved to a curated model as of March 2025, which makes it even more restrictive.",
+    "url": "https://help.society6.com/en-US/how-do-i-become-an-artist-with-society6-1261621",
+    "payoutModel": "When open: 10% markup on select products (pillows, wall tapestries, framed art); 5% markup on all other products. Payments via PayPal monthly.",
+    "active": false,
+    "requirements": "Applications closed as of 2025. Previously open to all artists.",
+    "notes": "Was a creator program (artists earn from uploaded art on print-on-demand products). Currently INACTIVE for new signups. Mark REJECTED due to not accepting new creators."
+  },
+  {
+    "id": "zazzle-designer",
+    "name": "Zazzle Designer",
+    "verdict": "VERIFIED",
+    "reason": "Designers create and upload original designs that get printed on products. Earn royalties from product sales — a clear creator-earning model.",
+    "url": "https://www.zazzle.com/sell",
+    "payoutModel": "Designers set their own royalty rate: 5%–50% of base price for physical products (as of April 2025 cap); 5%–99% for instant downloads. Marketing Royalty Fee deducted (35%–50% of gross royalty) for sales driven by Zazzle marketing. Excess Royalty Fee of 5% if royalty rate >10%.",
+    "active": true,
+    "requirements": "Free to join. Create a Zazzle store and upload designs. No follower requirements.",
+    "notes": "Recent 2025 changes capped physical product royalties at 50% (down from 99%). Marketing fees can significantly cut earnings. Effective rates for most sellers: 10%–15% of base price recommended. Still active and open to new designers."
+  },
+  {
+    "id": "dribbble-marketplace",
+    "name": "Dribbble Marketplace",
+    "verdict": "VERIFIED",
+    "reason": "Designers earn by selling digital assets (templates, fonts, icons, UI kits, illustrations) through Dribbble's Marketplace (powered by Creative Market). Earning is based on content created, not referrals.",
+    "url": "https://dribbble.com/marketplace",
+    "payoutModel": "Creative Market charges ~50% commission on sales. Sellers keep ~50% of sale price. Payouts via ACH/eCheck or PayPal monthly, minimum $20 balance.",
+    "active": true,
+    "requirements": "Dribbble Pro membership recommended (provides express shop setup). Must apply to open a Creative Market shop — portfolio review required. Recommended to have 5–10 products ready.",
+    "notes": "Dribbble acquired Creative Market; marketplace is jointly powered by both platforms. Sellers must create a Creative Market shop to sell."
+  }
+]

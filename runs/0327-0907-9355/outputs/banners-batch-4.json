@@ -1,0 +1,92 @@
+[
+  {
+    "id": "substack-pro",
+    "bannerImage": "https://substackcdn.com/image/fetch/w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F51090fae-a8a1-49b0-8c1d-d128a498363b_1612x1068.png",
+    "source": "og:image"
+  },
+  {
+    "id": "teachable-creator",
+    "bannerImage": "https://cdn.prod.website-files.com/687904fb2b26c434698c47e9/68f7dd90eed5bf0a9cb37cd1_teachable-og-main.webp",
+    "source": "twitter:image"
+  },
+  {
+    "id": "tiktok-creator-rewards",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "tiktok-shop-affiliate",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "twitch-affiliate",
+    "bannerImage": "https://www.twitch.tv/creatorcamp/twitch-creator-camp.jpg",
+    "source": "og:image"
+  },
+  {
+    "id": "udemy-instructor",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "ulta-beauty-collective",
+    "bannerImage": "https://ubcollective.com/ub_collective_og.png",
+    "source": "og:image"
+  },
+  {
+    "id": "unity-asset-store",
+    "bannerImage": "https://images.ctfassets.net/t8hl2pirfi15/3xcvxnXZS5chl05fdoIqAp/7af086ba3422eb01d585b94858d03aa4/open_graph_default.png",
+    "source": "og:image"
+  },
+  {
+    "id": "vocal-media",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "wattpad-creators-program",
+    "bannerImage": "https://bmth58fl.media.zesty.site/Homepage-Creators-Logo-Alt-Grey.svg?width=1200&height=630&fit=crop",
+    "source": "og:image"
+  },
+  {
+    "id": "webflow-template-creator",
+    "bannerImage": "https://cdn.prod.website-files.com/5e593fb060cf87bbaf75dd20/651ee1f5eb37698aecfd9c17_brand-refresh-templates-og-1200x628.jpg",
+    "source": "twitter:image"
+  },
+  {
+    "id": "webtoon-creator",
+    "bannerImage": "https://webtoons-static.pstatic.net/image/pc/home/og_en.jpg?dt=2021111201",
+    "source": "og:image"
+  },
+  {
+    "id": "whatnot-seller",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "wirestock",
+    "bannerImage": "https://wirestock-web-assets-production.s3.amazonaws.com/socials/og-image.webp",
+    "source": "og:image"
+  },
+  {
+    "id": "x-creator-revenue",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "yesstyle-influencer",
+    "bannerImage": null,
+    "source": "none"
+  },
+  {
+    "id": "youtube-partner-program",
+    "bannerImage": "https://www.youtube.com/img/desktop/yt_1200.png",
+    "source": "og:image"
+  },
+  {
+    "id": "zapier-solution-partner",
+    "bannerImage": "https://res.cloudinary.com/zapier-media/image/upload/v1737062632/Partners/Solutions%20Partner%20Program/og-solutionpartner_eikmo9.png",
+    "source": "twitter:image"
+  }
+]

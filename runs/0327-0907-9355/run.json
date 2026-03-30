@@ -1,0 +1,14 @@
+{
+  "runId": "0327-0907-9355",
+  "objective": "Source official promotional banners for 74 creator programs by extracting og:image/twitter:image meta tags. Verify each image is a clean marketing banner (no captchas, login screens, raw screenshots). Output a JSON file with banner URLs mapped to program IDs.",
+  "status": "created",
+  "createdAt": "2026-03-27T09:07:46.471266+00:00Z",
+  "agents": [],
+  "phases": [],
+  "competitive": [],
+  "checkpoints": [],
+  "healingEvents": [],
+  "reviewLoops": [],
+  "roleSwitches": [],
+  "completedAt": null
+}

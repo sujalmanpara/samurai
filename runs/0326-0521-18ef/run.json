@@ -1,0 +1,14 @@
+{
+  "runId": "0326-0521-18ef",
+  "objective": "Verify 20 candidate programs for CreatorVault platform. For each program: (1) confirm it IS a creator program (creators earn by making content, NOT just referring customers), (2) find the exact creator program page URL, (3) confirm it's currently active/accepting creators, (4) find real payout data. Output a verified/rejected list with reasons.",
+  "status": "created",
+  "createdAt": "2026-03-26T05:21:26.463991+00:00Z",
+  "agents": [],
+  "phases": [],
+  "competitive": [],
+  "checkpoints": [],
+  "healingEvents": [],
+  "reviewLoops": [],
+  "roleSwitches": [],
+  "completedAt": null
+}

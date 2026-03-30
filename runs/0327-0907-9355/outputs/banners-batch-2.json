@@ -1,0 +1,21 @@
+[
+  {"id": "figma-community-creator", "bannerImage": "https://static.figma.com/uploads/3d791db872a0158f92798fa0134d8eeaf6af5535", "source": "og:image"},
+  {"id": "fortnite-uefn", "bannerImage": "https://dev.epicgames.com/community/api/documentation/image/meta_tag?path=en-us/fortnite/engagement-payout-in-fortnite-creative&application_version=1.0", "source": "og:image"},
+  {"id": "fourthwall-creator", "bannerImage": null, "source": "none"},
+  {"id": "freepik-contributor", "bannerImage": "https://fps.cdnpk.net/common/contributor-freepik-og.png?w=1200", "source": "og:image"},
+  {"id": "getty-images-contributor", "bannerImage": "https://image-processor-storage.s3.us-west-2.amazonaws.com/uploads/03fa03454e0a886ce70440dcd99678b6/cleaning-time-doesnt-have-to-be-all-boringjpg.jpg", "source": "og:image"},
+  {"id": "github-sponsors", "bannerImage": "https://images.ctfassets.net/8aevphvgewt8/6QLkAW8tejFtpyDTCdO1Yd/5ed91a2b1c0cfb264c6e0aeac870e9aa/sponsors-945335f065cc.jpg", "source": "og:image"},
+  {"id": "gumroad-creator", "bannerImage": "https://assets.gumroad.com/assets/opengraph_image-4110ebae42201eaa14606ecde6ca17e380f576b25224ba270116b0439775cd0a.png", "source": "og:image"},
+  {"id": "higgsfield-earn", "bannerImage": "https://higgsfield.ai/thumbnail/earn.jpg", "source": "og:image"},
+  {"id": "instagram-creator-monetization", "bannerImage": "https://static.cdninstagram.com/rsrc.php/v4/yD/r/R0fBIMurK8v.png", "source": "og:image"},
+  {"id": "kick-creator-program", "bannerImage": null, "source": "none"},
+  {"id": "kling-ai-partnership", "bannerImage": null, "source": "none"},
+  {"id": "ko-fi", "bannerImage": "https://storage.ko-fi.com/cdn/og.png?v=2", "source": "og:image"},
+  {"id": "leonardo-ai-affiliate", "bannerImage": null, "source": "none"},
+  {"id": "ltk-creator", "bannerImage": "https://creator.shopltk.com/LTK_creator.png", "source": "og:image"},
+  {"id": "maven-creator", "bannerImage": "https://d2426xcxuh3ht5.cloudfront.net/HCb0epiqS6SljmDozKSs_MCA_Social Share_1200x630.jpg", "source": "og:image"},
+  {"id": "medium-partner-program", "bannerImage": null, "source": "none"},
+  {"id": "meta-horizon-creator-program", "bannerImage": null, "source": "none"},
+  {"id": "newsbreak-creator", "bannerImage": "https://www.newsbreak.com/default_news_cover.png", "source": "og:image"},
+  {"id": "notion-template-creator", "bannerImage": "https://www.notion.com/en-us/front-api/og-image/templates", "source": "og:image"}
+]

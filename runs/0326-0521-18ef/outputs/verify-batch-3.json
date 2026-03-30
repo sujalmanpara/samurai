@@ -1,0 +1,92 @@
+[
+  {
+    "id": "luma-ai-creator",
+    "name": "Luma AI Creative Partner Program",
+    "verdict": "REJECTED",
+    "reason": "Luma AI's Creative Partner Program does NOT pay creators for content generated. It offers exposure benefits (monthly credits, early access, amplification of work, speaking opportunities) but no direct monetary payments for AI-generated content. Creators need paid subscriptions ($29.99–$94.99/month) just to commercialize their own output. This is a brand ambassador/perks program, not a monetization program.",
+    "url": "https://lumalabs.ai/creative-partner-program",
+    "payoutModel": "No direct payout — perks only (credits, exposure, speaking opportunities)",
+    "requirements": "Min 5,000 engaged followers, active Dream Machine user monthly, 2-3 posts/month with attribution",
+    "active": true
+  },
+  {
+    "id": "suno-creator",
+    "name": "Suno AI Creator Monetization",
+    "verdict": "REJECTED",
+    "reason": "Suno ran a one-time 'Summer of Suno' $1M payout competition in 2024 but there is no ongoing formal creator revenue-sharing program. Creators don't earn from Suno directly for music they make — they must distribute to streaming platforms themselves (via DistroKid etc.) and retain only 1–10% of income per recent WMG partnership terms. Suno only has an affiliate program for referring users. No sustained creator-pay program exists.",
+    "url": "https://suno.com",
+    "payoutModel": "No direct ongoing payout; one-time 2024 competition was $1M total; ongoing model is platform subscription not creator revenue share",
+    "requirements": "Pro or Premier subscription ($8–$30/month) required for commercial use",
+    "active": false
+  },
+  {
+    "id": "heygen-creator",
+    "name": "HeyGen Creator Program",
+    "verdict": "REJECTED",
+    "reason": "HeyGen does NOT have a creator program that pays for AI videos made on the platform. Their only income-sharing program is an affiliate program (earn commission by referring new users). Creators use HeyGen as a tool but earn through other channels (YouTube, their own clients). No direct payment from HeyGen for content created.",
+    "url": "https://www.heygen.com/affiliate-program",
+    "payoutModel": "Affiliate-only (referral commissions) — not a creator content program",
+    "requirements": "N/A — affiliate only",
+    "active": true
+  },
+  {
+    "id": "wordpress-themeforest",
+    "name": "WordPress Theme Marketplace (ThemeForest/Envato)",
+    "verdict": "VERIFIED",
+    "reason": "Developers earn directly by building and selling WordPress themes on ThemeForest (Envato Market). Pure creator program — earn from themes you build, not from referring others. Exclusive authors pay 12.5% fee (keep ~87.5%), non-exclusive pay up to 50% fee. Monthly payouts via PayPal or Payoneer. Active marketplace with $286M+ annual sales and 10,000+ themes.",
+    "url": "https://themeforest.net/become-an-author",
+    "payoutModel": "Revenue share: exclusive authors keep up to 87.5%, non-exclusive keep 50–70% depending on tier. Tiered: Standard, Power Elite status unlocks higher shares. Monthly payout.",
+    "requirements": "Submit theme for review; must meet Envato quality standards; W-8 tax form for non-US authors",
+    "active": true
+  },
+  {
+    "id": "appsumo-marketplace",
+    "name": "AppSumo Marketplace (Sell on AppSumo)",
+    "verdict": "VERIFIED",
+    "reason": "AppSumo is a creator/maker marketplace where software developers and digital product creators list their products (SaaS tools, plugins, courses, ebooks) and earn from sales. Pure creator program — earn from products you build, not from referring others. Partners have generated $55M+ in revenue collectively. Case studies show individual products earning $100K–$500K per campaign. AppSumo charges a revenue share fee.",
+    "url": "https://sell.appsumo.com",
+    "payoutModel": "Revenue share from product sales. AppSumo takes a cut (typically 30–50% depending on deal structure); makers keep the rest. No upfront listing fee.",
+    "requirements": "Must have a digital product (SaaS, plugin, course, ebook, etc.); apply via sell.appsumo.com; AppSumo vets and selects products for launch",
+    "active": true
+  },
+  {
+    "id": "podia-creator",
+    "name": "Podia — Creator Platform",
+    "verdict": "VERIFIED",
+    "reason": "Podia is a dedicated creator platform where creators sell courses, digital downloads, memberships, coaching, and webinars directly to customers. 100% creator program — you earn by creating and selling your own content. Paid plans charge 0% transaction fees (Shaker plan). Stripe/PayPal integration. Comprehensive all-in-one tool actively used by creators in 2024–2025.",
+    "url": "https://www.podia.com",
+    "payoutModel": "Creators keep 100% of revenue on Shaker plan (0% transaction fee). Mover plan has 5% transaction fee. Podia charges monthly platform fee ($33–$89/month). Payouts via Stripe or PayPal.",
+    "requirements": "Sign up for Podia account; 30-day free trial available (free plan removed Oct 2024); paid plan required for full features",
+    "active": true
+  },
+  {
+    "id": "threadless-artist",
+    "name": "Threadless Artist Shops & Marketplace",
+    "verdict": "VERIFIED",
+    "reason": "BONUS: Threadless is a print-on-demand marketplace where artists earn from designs they create and upload. Pure creator program — earn from artwork you make. Artist Shops let creators set their own prices (keep price minus base cost). Threadless Marketplace pays 10% royalty (updated early 2025). Invite-only 'Earn More Program' gives access to Amazon, Target, Hot Topic distribution. Monthly PayPal payouts.",
+    "url": "https://www.threadless.com/artist-shops",
+    "payoutModel": "Artist Shops: set own price, keep (retail price - base cost - 5% processing fee). Marketplace: 10% royalty on sale price. Earn More Program (invite-only): additional distribution channels. Monthly PayPal payout.",
+    "requirements": "Free to create Artist Shop; upload original designs; must own rights to designs",
+    "active": true
+  },
+  {
+    "id": "redbubble-artist",
+    "name": "Redbubble Artist Marketplace",
+    "verdict": "VERIFIED",
+    "reason": "BONUS CONFIRMATION: Redbubble IS a creator program, not affiliate. Artists earn 'Artist Margin' (royalty) of 10–30% on products featuring their uploaded designs. Classic print-on-demand creator model — earn from designs you create. Note: platform fees apply based on account tier (Standard 50% of earnings, Premium 20%, Pro 0%). Monthly payout via PayPal or bank transfer at $20 minimum.",
+    "url": "https://www.redbubble.com/sell-your-art",
+    "payoutModel": "Artist Margin: 10–30% royalty (default 20% markup). Platform fee: Standard accounts 50% of earnings; Premium 20%; Pro 0%. Monthly payout at $20 threshold via PayPal or bank transfer.",
+    "requirements": "Free account; upload original artwork; account tier determines fees (based on sales volume and engagement)",
+    "active": true
+  },
+  {
+    "id": "adobe-express-templates",
+    "name": "Adobe Express Template Creator Program",
+    "verdict": "REJECTED",
+    "reason": "BONUS: Adobe Express does NOT have an official creator program for submitting templates to Adobe Express library. There is no direct revenue program for Express templates. Creators can sell templates on third-party platforms (Etsy, Creative Market) by sharing remixable links, but Adobe does not pay for this. Adobe Stock Contributor program is separate (for photos/vectors, not Express templates). Adobe Express only has an affiliate program.",
+    "url": "https://contributor.stock.adobe.com/",
+    "payoutModel": "No direct Adobe Express template payout program. Adobe Stock (separate) pays royalties for photos/vectors/video used in Express projects.",
+    "requirements": "N/A — no Express-specific template creator program exists",
+    "active": false
+  }
+]

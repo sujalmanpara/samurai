@@ -1,0 +1,14 @@
+{
+  "runId": "0326-0634-9b93",
+  "objective": "Write production-ready JSON files for 17 new verified creator programs to add to CreatorVault. Each JSON must be complete, accurate, and DB-constraint-compliant. Include full description, real payout data, requirements, rejection reasons, creator quotes, and banner images.",
+  "status": "created",
+  "createdAt": "2026-03-26T06:34:10.420283+00:00Z",
+  "agents": [],
+  "phases": [],
+  "competitive": [],
+  "checkpoints": [],
+  "healingEvents": [],
+  "reviewLoops": [],
+  "roleSwitches": [],
+  "completedAt": null
+}

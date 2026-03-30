@@ -1,0 +1,127 @@
+[
+  {
+    "id": "higgsfield-earn",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%236C5CE7'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>HI</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "instagram-creator-monetization",
+    "logoUrl": "https://cdn.simpleicons.org/instagram",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "kick-creator-program",
+    "logoUrl": "https://cdn.simpleicons.org/kick",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "kling-ai-partnership",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%236B3FF2'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>KL</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "ko-fi",
+    "logoUrl": "https://cdn.simpleicons.org/kofi",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "leonardo-ai-affiliate",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%237B2FFF'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>LE</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "ltk-creator",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23FF5A5F'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>LT</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "maven-creator",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%235522FA'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>MA</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "medium-partner-program",
+    "logoUrl": "https://cdn.simpleicons.org/medium",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "meta-horizon-creator-program",
+    "logoUrl": "https://cdn.simpleicons.org/meta",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "newsbreak-creator",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23E8003D'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>NB</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "notion-template-creator",
+    "logoUrl": "https://cdn.simpleicons.org/notion",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "patreon-creator",
+    "logoUrl": "https://cdn.simpleicons.org/patreon",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "pond5-contributor",
+    "logoUrl": "https://cdn.simpleicons.org/pond5",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "printful-ambassador",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23222222'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>PR</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "printify-affiliate",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%2300B3A4'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>PR</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "redbubble",
+    "logoUrl": "https://cdn.simpleicons.org/redbubble",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "roblox-developer-program",
+    "logoUrl": "https://cdn.simpleicons.org/roblox",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "rumble-creator-program",
+    "logoUrl": "https://cdn.simpleicons.org/rumble",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "runway-creative-partners",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23000000'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>RW</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "sephora-squad",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23000000'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>SE</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "shopify-theme-partner",
+    "logoUrl": "https://cdn.simpleicons.org/shopify",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "shutterstock-contributor",
+    "logoUrl": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%23EE2222'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-weight='bold' font-family='sans-serif'>SH</text></svg>",
+    "logoSource": "fallback"
+  },
+  {
+    "id": "skillshare-teacher",
+    "logoUrl": "https://cdn.simpleicons.org/skillshare",
+    "logoSource": "simpleicons"
+  },
+  {
+    "id": "snap-lens-creator-rewards",
+    "logoUrl": "https://cdn.simpleicons.org/snapchat",
+    "logoSource": "simpleicons"
+  }
+]
