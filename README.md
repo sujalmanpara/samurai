@@ -1,7 +1,8 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/SAMURAI-v1.1-red?style=for-the-badge&labelColor=1a1a2e&color=e94560" alt="Version"/>
+  <img src="https://img.shields.io/badge/SAMURAI-v1.1.1-red?style=for-the-badge&labelColor=1a1a2e&color=e94560" alt="Version"/>
   <img src="https://img.shields.io/badge/OpenClaw-Native-blue?style=for-the-badge&labelColor=1a1a2e&color=0f3460" alt="Platform"/>
   <img src="https://img.shields.io/badge/Agents-Dynamic-green?style=for-the-badge&labelColor=1a1a2e&color=16c79a" alt="Agents"/>
+  <img src="https://img.shields.io/badge/Evidence-Hardened-orange?style=for-the-badge&labelColor=1a1a2e&color=f59e0b" alt="Evidence Hardened"/>
   <img src="https://img.shields.io/badge/License-Private-gray?style=for-the-badge&labelColor=1a1a2e&color=6c757d" alt="License"/>
 </p>
 
@@ -16,6 +17,31 @@
 </p>
 
 ---
+
+## ✅ Current Status — Evidence-Hardened v1.1.1
+
+SAMURAI is currently in an **evidence-driven hardening phase**. Recent work focused on making the existing orchestration system safer and more measurable before adding heavier v2 features.
+
+### Shipped in v1.1.1
+
+- **Safer task classification** — word-boundary classification with regression tests for cases like `analyze the build pipeline` vs `create the build pipeline`.
+- **Fork compatibility fix** — forked runs now preserve the v1.1 topic-bus structure instead of falling back to legacy `bus.jsonl`.
+- **Working bus filters** — `orchestrate.py bus <run-id> --channel urgent` now works from the CLI.
+- **Priority format cleanup** — Queen instructions use one vocabulary: `critical / high / normal / low`.
+- **Queen pre-delivery self-check** — before delivery, Queen explicitly checks whether the output answers the original request and whether blockers remain.
+- **Vector memory hardening** — TF-IDF fallback vocabulary is capped to avoid unbounded growth.
+- **Evidence log** — `memory/samurai-usage-log.md` tracks real runs before larger validation features are added.
+
+### Not shipped yet
+
+These are intentionally deferred until enough evidence exists:
+
+- Full validation-contract workflow
+- Separate adversarial Validator agent
+- Serial execution state machine
+- `serial-queue.json` or feature-flag systems
+
+The current recommendation is: **collect real usage evidence first, then add validation contracts only if repeated quality gaps appear.**
 
 ## 🎯 What is SAMURAI?
 
@@ -78,6 +104,16 @@ Total time: ~5 minutes
 | 📏 **Style Contract** | Shared coding/writing rules all agents follow |
 | 🔍 **Integration Review** | Consistency check before assembly — no Frankenstein code |
 | ⚠️ **Anti-Pattern Detection** | Queen knows when NOT to swarm |
+
+### Operational Hardening (v1.1.1)
+
+| Feature | Description |
+|---------|------------|
+| ✅ **Pre-Delivery Self-Check** | Queen verifies the final output addresses the original request before delivery |
+| 🧪 **Evidence Log** | Real SAMURAI runs are tracked in `memory/samurai-usage-log.md` before bigger changes are accepted |
+| 🔎 **Safer Task Classification** | Classification avoids substring false positives and handles noun/verb ambiguity |
+| 🔀 **Fork Run Compatibility** | Forked runs use the same topic-channel structure as new runs |
+| 🧠 **Vector Memory Guardrail** | TF-IDF fallback vocabulary is capped to prevent unbounded growth |
 
 ---
 
@@ -165,10 +201,12 @@ skills/samurai/
 │   ├── communication.md              ← Full inter-agent protocol (v1.1)
 │   └── patterns.md                   ← Task decomposition patterns
 ├── scripts/
-│   └── orchestrate.py                ← Run management CLI
+│   ├── orchestrate.py                ← Run management CLI
+│   └── vector_memory.py              ← Optional semantic memory indexing
 ├── memory/
 │   ├── learnings.json                ← Self-learning data
-│   └── reputation.json               ← Agent model+role reputation
+│   ├── reputation.json               ← Agent model+role reputation
+│   └── samurai-usage-log.md          ← Evidence log for future validation features
 └── runs/                             ← Created per run
     └── <run-id>/
         ├── run.json                  ← Run metadata
@@ -212,6 +250,7 @@ python3 orchestrate.py status <run-id>
 # View message bus
 python3 orchestrate.py bus <run-id>
 python3 orchestrate.py bus <run-id> --channel decisions
+python3 orchestrate.py bus <run-id> --channel urgent --tail 20
 
 # List all runs
 python3 orchestrate.py list
@@ -310,3 +349,28 @@ Then PR-reviewed by 4 more agents (quality, regression, alternatives, coordinato
 <p align="center">
   <strong>Built by Sam. Powered by AI. Orchestrated by the Queen.</strong> 🗡️
 </p>
+
+
+---
+
+## 🧪 Evidence-Driven Roadmap
+
+SAMURAI is being upgraded by evidence, not hype.
+
+### Evidence gates
+
+| Feature | When to Add |
+|---------|-------------|
+| **Validation contracts** | After multiple real runs show issues that upfront acceptance criteria would catch |
+| **Separate Validator agent** | After contract-based runs show Queen self-check still misses important issues |
+| **Sequential/serial spawning** | After real runs show ordering failures between agents |
+
+### Evidence collected so far
+
+| Run | Type | Result |
+|-----|------|--------|
+| Run 1 | Code audit | Explicit expected tests caught and fixed a classifier regression |
+| Run 2 | Research/source grounding | Claim-label requirements caught unsupported terminology drift |
+| Run 3 | Planning/design | Upfront constraints acted like a contract and prevented scope creep |
+
+Current conclusion: lightweight validation contracts look promising, but a full Validator agent is still deferred.
