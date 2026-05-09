@@ -12,7 +12,7 @@ Usage:
   python3 orchestrate.py replay <run-id> "new objective"
   python3 orchestrate.py fork <run-id> "modification"
   python3 orchestrate.py cleanup [--older-than 7d]
-  python3 orchestrate.py bus <run-id> [--tail 20]
+  python3 orchestrate.py bus <run-id> [--tail 20] [--channel urgent]
 """
 
 import sys
@@ -20,6 +20,7 @@ import os
 import json
 import uuid
 import shutil
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -57,10 +58,86 @@ def generate_run_id():
     return f"{ts}-{short_uuid}"
 
 
+def classify_task(objective: str) -> dict:
+    """
+    Auto-classify a task objective into a pattern.
+    Returns classification with recommended team size and warnings.
+    """
+    obj = objective.lower()
+    words = set(re.findall(r"[a-z0-9]+", obj))
+
+    coupled_keywords = ["build", "create", "make", "write", "implement", "design", "develop", "code"]
+    single_file_signals = [
+        "dashboard", "ui", "interface", "webpage", "website", "page", "html", "css",
+        "app", "tool", "cli", "script", "single file", "one file", "template",
+        "component", "widget", "panel", "landing page"
+    ]
+    parallel_keywords = ["analyze", "research", "review", "test", "compare", "audit", "check", "scan"]
+    pipeline_keywords = ["then", "after", "followed by", "phase", "step", "pipeline", "stage"]
+
+    # Identify coupled keywords that appear as verbs, not nouns like "the build pipeline".
+    present_coupled = [k for k in coupled_keywords if k in words]
+    noun_coupled = [
+        k for k in present_coupled
+        if re.search(rf"\b(the|a|an|this|our|my)\s+{re.escape(k)}\b", obj)
+    ]
+    verb_coupled = [k for k in present_coupled if k not in noun_coupled]
+    is_coupled_verb = len(verb_coupled) > 0
+
+    is_single_file = any(k in obj if " " in k else k in words for k in single_file_signals)
+    is_parallel = any(k in words for k in parallel_keywords)
+    is_pipeline = any(k in obj if " " in k else k in words for k in pipeline_keywords)
+
+    if is_single_file or (is_coupled_verb and is_single_file):
+        pattern = "COUPLED"
+        max_agents = 3
+        recommended = "architect → coder → reviewer (sequential, max 3)"
+        warning = "⚠️  Single-file/UI output detected. Use MAX 3 agents (architect+coder+reviewer). Never spawn parallel coders for this task."
+    elif is_coupled_verb and not is_parallel:
+        pattern = "COUPLED"
+        max_agents = 3
+        recommended = "architect → coder → reviewer (sequential, max 3)"
+        warning = "⚠️  Build/create task detected. Tightly coupled output — use sequential agents only."
+    elif is_parallel and not is_coupled_verb:
+        pattern = "PARALLEL"
+        max_agents = 20
+        recommended = "Spawn one agent per independent item. Go wide."
+        warning = None
+    elif is_pipeline:
+        pattern = "PIPELINE"
+        max_agents = 10
+        recommended = "Sequential phases, parallel within each phase."
+        warning = None
+    elif is_parallel and is_coupled_verb:
+        pattern = "HYBRID"
+        max_agents = 6
+        recommended = "Phase 1: architect. Phase 2: parallel workers. Phase 3: reviewer."
+        warning = "⚠️  Mixed signals. Prefer pipeline structure. Keep parallel work in separate output files."
+    else:
+        pattern = "PARALLEL"
+        max_agents = 10
+        recommended = "Standard swarm. Adjust based on independent subtask count."
+        warning = None
+
+    return {
+        "pattern": pattern,
+        "max_agents": max_agents,
+        "recommended_structure": recommended,
+        "warning": warning,
+        "signals": {
+            "coupled_verb": is_coupled_verb,
+            "single_file": is_single_file,
+            "parallel": is_parallel,
+            "pipeline": is_pipeline,
+        }
+    }
+
+
 def cmd_create(objective):
     """Create a new run directory with initial metadata."""
     ensure_dirs()
     run_id = generate_run_id()
+    classification = classify_task(objective)
     run_dir = RUNS_DIR / run_id
 
     run_dir.mkdir()
@@ -73,6 +150,9 @@ def cmd_create(objective):
         "objective": objective,
         "status": "created",
         "createdAt": datetime.now(timezone.utc).isoformat() + "Z",
+        "taskPattern": classification["pattern"],
+        "maxRecommendedAgents": classification["max_agents"],
+        "recommendedStructure": classification["recommended_structure"],
         "agents": [],
         "phases": [],
         "competitive": [],
@@ -110,12 +190,18 @@ def cmd_create(objective):
     # Create empty style contract (Queen fills this before spawning coders)
     (run_dir / "style-contract.md").write_text("# Style Contract\n\n_Queen: Fill this before spawning 2+ coders/writers._\n")
 
-    print(json.dumps({
+    result = {
         "status": "created",
         "runId": run_id,
         "path": str(run_dir),
         "objective": objective,
-    }, indent=2))
+        "taskPattern": classification["pattern"],
+        "maxRecommendedAgents": classification["max_agents"],
+        "recommendedStructure": classification["recommended_structure"],
+    }
+    if classification["warning"]:
+        result["WARNING"] = classification["warning"]
+    print(json.dumps(result, indent=2))
     return run_id
 
 
@@ -315,6 +401,22 @@ def cmd_learn(run_id):
     learnings.append(learning)
     LEARNINGS_FILE.write_text(json.dumps(learnings, indent=2))
 
+    # Vector memory is optional: index the run when vector_memory.py exists.
+    try:
+        import subprocess
+        vm_path = SKILL_DIR / "scripts" / "vector_memory.py"
+        if vm_path.exists():
+            result = subprocess.run(
+                [sys.executable, str(vm_path), "store", run_id, str(SKILL_DIR)],
+                capture_output=True,
+                text=True,
+                timeout=30,
+            )
+            if result.returncode != 0:
+                print(f"[learn] vector_memory warning: {result.stderr.strip()}", file=sys.stderr)
+    except Exception as ve:
+        print(f"[learn] vector_memory skipped: {ve}", file=sys.stderr)
+
     print(json.dumps({"status": "learned", "runId": run_id, "totalLearnings": len(learnings)}, indent=2))
 
 
@@ -402,6 +504,8 @@ def cmd_fork(run_id, modification):
         "competitive": [],
         "checkpoints": [],
         "healingEvents": [],
+        "reviewLoops": [],
+        "roleSwitches": [],
         "completedAt": None,
     }
     (new_run_dir / "run.json").write_text(json.dumps(new_meta, indent=2))
@@ -557,8 +661,19 @@ def main():
     elif cmd == "fork" and len(sys.argv) >= 4:
         cmd_fork(sys.argv[2], sys.argv[3])
     elif cmd == "bus" and len(sys.argv) >= 3:
-        tail = sys.argv[4] if len(sys.argv) > 4 and sys.argv[3] == "--tail" else None
-        cmd_bus(sys.argv[2], tail)
+        tail = None
+        channel = None
+        i = 3
+        while i < len(sys.argv):
+            if sys.argv[i] == "--tail" and i + 1 < len(sys.argv):
+                tail = sys.argv[i + 1]
+                i += 2
+            elif sys.argv[i] == "--channel" and i + 1 < len(sys.argv):
+                channel = sys.argv[i + 1]
+                i += 2
+            else:
+                i += 1
+        cmd_bus(sys.argv[2], tail, channel)
     elif cmd == "cleanup":
         days = 7
         if "--older-than" in sys.argv:

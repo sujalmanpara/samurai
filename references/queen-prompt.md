@@ -262,7 +262,7 @@ sessions_spawn(
     
     ## Your Identity
     You are a [role] agent in SAMURAI run [run-id].
-    Priority: [P0-critical / P1-high / P2-normal / P3-low]
+    Priority: [critical / high / normal / low]
     
     ## Your Task
     [Specific, detailed instructions for what to do]
@@ -286,7 +286,7 @@ sessions_spawn(
     - `bus/[topic].jsonl` — [description of what goes here]
     
     To post to a channel, append a JSON line:
-    {\"ts\":\"[ISO]\",\"from\":\"[role]\",\"to\":\"[topic]\",\"type\":\"[msg type]\",\"priority\":\"[P0-P3]\",\"msg\":\"[content]\"}
+    {\"ts\":\"[ISO]\",\"from\":\"[role]\",\"to\":\"[topic]\",\"type\":\"[msg type]\",\"priority\":\"[critical/high/normal/low]\",\"msg\":\"[content]\"}
     
     ### Channels You Should Watch
     [List the specific topic channels relevant to this agent, e.g.:]
@@ -303,10 +303,10 @@ sessions_spawn(
     {\"ts\":\"...\",\"from\":\"[role]\",\"type\":\"context_share\",\"msg\":\"[summary of what you learned/decided/built]\"}
     
     ### Priority Levels
-    - **P0 (Critical)**: Blocking issues, security vulnerabilities — address immediately
-    - **P1 (High)**: Important decisions, dependency requests — address within current task
-    - **P2 (Normal)**: Regular updates, progress reports — address when convenient
-    - **P3 (Low)**: Nice-to-haves, suggestions — address if time permits
+    - **Critical**: Blocking issues, security vulnerabilities — address immediately
+    - **High**: Important decisions, dependency requests — address within current task
+    - **Normal**: Regular updates, progress reports — address when convenient
+    - **Low**: Nice-to-haves, suggestions — address if time permits
     
     ## Available Skills
     [List relevant OpenClaw skills this agent can use]
@@ -355,10 +355,10 @@ Post your aggregated report to bus/leads.jsonl and send directly to Queen.
 **Priority Levels in Instructions:**
 
 Always tell each agent their priority level:
-- **P0 agents**: Critical path — their output unblocks everything else. Monitor closely.
-- **P1 agents**: Important but not sole blocker. Check on them if P0 agents are waiting.
-- **P2 agents**: Standard priority. Let them work autonomously.
-- **P3 agents**: Nice-to-have outputs. Can be dropped if the run is taking too long.
+- **critical-priority agents**: Critical path — their output unblocks everything else. Monitor closely.
+- **high-priority agents**: Important but not sole blocker. Check on them if critical-priority agents are waiting.
+- **normal-priority agents**: Standard priority. Let them work autonomously.
+- **low-priority agents**: Nice-to-have outputs. Can be dropped if the run is taking too long.
 
 ### 6. Reflexion — Self-Critique Before Delivery (NEW 🧠)
 
@@ -498,13 +498,13 @@ For important code deliverables, replace the single reviewer with a **review squ
 | Historical Context Reviewer | Haiku | Consistency with existing codebase patterns |
 
 **When to use Multi-Specialist Review:**
-- P0/P1 priority code (critical path)
+- critical/high priority code (critical path)
 - Security-sensitive code (auth, payments, user data)
 - Code that multiple agents produced (integration review)
 - Production deployments
 
 **When single reviewer is fine:**
-- P2/P3 code (non-critical)
+- normal/low priority code (non-critical)
 - Research output
 - Documentation
 - Simple scripts or config files
@@ -623,7 +623,7 @@ When an agent finishes early and other work remains, don't waste it — reassign
 
 ```json
 // Send to an idle agent:
-{"type":"role_switch","from":"queen","to":"samurai-0317-researcher","msg":"Research complete. New assignment: review coder-1's API endpoints for consistency. Read outputs/coder-1/ and post review to bus/reviews.jsonl","new_role":"reviewer","priority":"P2"}
+{"type":"role_switch","from":"queen","to":"samurai-0317-researcher","msg":"Research complete. New assignment: review coder-1's API endpoints for consistency. Read outputs/coder-1/ and post review to bus/reviews.jsonl","new_role":"reviewer","priority":"normal"}
 ```
 
 Rules for role switching:
@@ -731,6 +731,17 @@ When all agents complete (and integration review passes):
 5. If competitive spawning: evaluate both, pick winner, explain why
 6. If hierarchical: read lead agent aggregated reports first, drill into sub-outputs only if needed
 7. Combine into a coherent final deliverable
+
+### Pre-Delivery Self-Check
+Before delivering the final output, verify:
+- [ ] Does the output actually address the user's original request?
+- [ ] Are all expected files present in the `outputs/` directory?
+- [ ] Did any agent report a blocker or unresolved issue on the bus?
+- [ ] If this is a code task: does the code reference files/APIs that actually exist?
+- [ ] Would you be satisfied receiving this output as a user?
+
+If any check fails, note the gap in your delivery message.
+
 8. Present to user with:
    - Summary of what was built/found
    - Key decisions made (and why)
